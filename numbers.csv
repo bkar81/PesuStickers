@@ -52,6 +52,7 @@
 047,I Give Up!,Everyday,047_i_give_up.png
 047a,Mudiyala,Tamil,047a_mudiyala.png
 048,Waiting Patiently...,Everyday,048_waiting_patiently.png
+049,For You,Everyday,049_for_you.png
 050,Peekaboo!,Everyday,050_peekaboo.png
 051,Sure!,Everyday,051_sure.png
 052,LOL!,Reactions,052_lol.png
@@ -156,23 +157,125 @@
 168,As Discussed!,Office,168_as_discussed.png
 169,Please Confirm!,Office,169_please_confirm.png
 170,Approved!,Office,170_approved.png
+173,Received!,Office,173_received.png
+174,Sent!,Office,174_sent.png
+175,Forwarded!,Office,175_forwarded.png
+180,Pending!,Office,180_pending.png
+182,Will Get Back to You!,Office,182_will_get_back_to_you.png
+184,Checking...,Office,184_checking.png
+185,Almost Done!,Office,185_almost_done.png
+186,Done!,Office,186_done.png
+188,Feedback Please!,Office,188_feedback_please.png
+189,Any Updates?,Office,189_any_updates.png
+190,Shall We Discuss?,Office,190_shall_we_discuss.png
+192,Of Course!,Office,192_of_course.png
+193,Agreed!,Office,193_agreed.png
+195,Not at the Moment!,Office,195_not_at_the_moment.png
+196,Maybe Later!,Office,196_maybe_later.png
+197,Let's Plan!,Office,197_let_s_plan.png
+198,Looking Forward!,Office,198_looking_forward.png
+199,Great Teamwork!,Office,199_great_teamwork.png
+200,Thank You Team!,Office,200_thank_you_team.png
 201,Happy Birthday!,Wishes & Festivals,201_happy_birthday.png
 202,Happy Anniversary!,Wishes & Festivals,202_happy_anniversary.png
 203,Congratulations!,Wishes & Festivals,203_congratulations.png
 204,Happy New Year!,Wishes & Festivals,204_happy_new_year.png
 205,Happy Pongal!,Wishes & Festivals,205_happy_pongal.png
+206,Happy Diwali!,Wishes & Festivals,206_happy_diwali.png
+207,Tamil New Year!,Wishes & Festivals,207_tamil_new_year.png
 208,Happy Karthigai!,Wishes & Festivals,208_happy_karthigai.png
+209,Happy Holidays!,Wishes & Festivals,209_happy_holidays.png
+210,Best Wishes!,Wishes & Festivals,210_best_wishes.png
+211,All the Best!,Support,211_all_the_best.png
+212,Good Luck!,Support,212_good_luck.png
+215,Never Give Up!,Support,215_never_give_up.png
+216,Believe in Yourself!,Support,216_believe_in_yourself.png
+218,One Step at a Time!,Support,218_one_step_at_a_time.png
+220,Keep Smiling!,Support,220_keep_smiling.png
+222,You're Not Alone,Support,222_you_re_not_alone.png
+223,Take Your Time,Support,223_take_your_time.png
+224,It's Okay,Support,224_it_s_okay.png
 226,Sending Hugs,Support,226_sending_hugs.png
 227,Feel Better Soon,Support,227_feel_better_soon.png
+228,This Too Shall Pass,Support,228_this_too_shall_pass.png
+229,Take a Deep Breath,Support,229_take_a_deep_breath.png
+230,Peace of Mind,Support,230_peace_of_mind.png
+231,Vanakkam!,Tamil,231_vanakkam.png
+232,Nandri!,Tamil,232_nandri.png
+233,Romba Nandri!,Tamil,233_romba_nandri.png
+234,Super Pa!,Tamil,234_super_pa.png
+235,Semma!,Tamil,235_semma.png
+236,Vera Level!,Tamil,236_vera_level.png
+237,Mass!,Tamil,237_mass.png
 237a,Therikka Vidudhu,Tamil,237a_therikka_vidudhu.png
+238,Sabaash!,Tamil,238_sabaash.png
+239,Vaazhthukkal!,Tamil,239_vaazhthukkal.png
+240,Sandhosham!,Tamil,240_sandhosham.png
+241,God Bless You!,Wishes & Festivals,241_god_bless_you.png
+243,Welcome Home!,Wishes & Festivals,243_welcome_home.png
+244,Happy for You!,Wishes & Festivals,244_happy_for_you.png
+245,Dreams Come True!,Wishes & Festivals,245_dreams_come_true.png
 246,You Made It!,Wishes & Festivals,246_you_made_it.png
+247,What a Surprise!,Wishes & Festivals,247_what_a_surprise.png
+248,Cheers!,Wishes & Festivals,248_cheers.png
+249,Enjoy Your Day!,Wishes & Festivals,249_enjoy_your_day.png
 250,Lots of Love!,Wishes & Festivals,250_lots_of_love.png
+251,Money,Daily Life,251_money.png
+252,Money Received!,Daily Life,252_money_received.png
+253,Money Sent!,Daily Life,253_money_sent.png
+254,Have you Sent?,Daily Life,254_have_you_sent.png
+255,Did you Receive?,Daily Life,255_did_you_receive.png
+256,Had Lunch?,Daily Life,256_had_lunch.png
+257,Had Breakfast?,Daily Life,257_had_breakfast.png
+258,Had Dinner?,Daily Life,258_had_dinner.png
+259,Had Tea?,Daily Life,259_had_tea.png
+260,Need to Wash!,Daily Life,260_need_to_wash.png
+261,Need to Clean!,Daily Life,261_need_to_clean.png
+262,It's Movie Time!,Daily Life,262_it_s_movie_time.png
+263,Relaxed!,Daily Life,263_relaxed.png
+264,Chilling Out!,Daily Life,264_chilling_out.png
+265,Need Some Rest!,Daily Life,265_need_some_rest.png
+266,Had a Nap!,Daily Life,266_had_a_nap.png
+267,It's Nap Time!,Daily Life,267_it_s_nap_time.png
+268,On Sick Leave!,Daily Life,268_on_sick_leave.png
+269,On Vacation!,Travel,269_on_vacation.png
+270,On a Business Trip!,Travel,270_on_a_business_trip.png
+271,Family Trip!,Travel,271_family_trip.png
+272,Reached Home!,Daily Life,272_reached_home.png
+273,I am Safe!,Daily Life,273_i_am_safe.png
+274,Get Well Soon!,Daily Life,274_get_well_soon.png
+275,Do Not Disturb!,Daily Life,275_do_not_disturb.png
 276,Not in a Mood!,Daily Life,276_not_in_a_mood.png
+277,Got Fever!,Daily Life,277_got_fever.png
+278,Having Cold!,Daily Life,278_having_cold.png
 279,Not Feeling Well!,Daily Life,279_not_feeling_well.png
+280,It's Paining!,Daily Life,280_it_s_paining.png
+281,Have Some Medicines!,Daily Life,281_have_some_medicines.png
+282,Did You See the Dr.?,Daily Life,282_did_you_see_the_dr.png
+283,Doing Exercise!,Daily Life,283_doing_exercise.png
+284,It's Me Time!,Daily Life,284_it_s_me_time.png
 285,Bro!,Daily Life,285_bro.png
 285a,Machaa!,Tamil,285a_machaa.png
+286,Dude!,Daily Life,286_dude.png
+287,Come On!,Daily Life,287_come_on.png
+288,Chill!,Daily Life,288_chill.png
+289,Safe Journey!,Travel,289_safe_journey.png
+290,Happy Journey!,Travel,290_happy_journey.png
+291,Bon Voyage!,Travel,291_bon_voyage.png
+292,Safe Trip!,Travel,292_safe_trip.png
+293,Be Careful!,Travel,293_be_careful.png
 294,Waiting for You!,Travel,294_waiting_for_you.png
+295,On the Way!,Travel,295_on_the_way.png
+296,Will Be There Soon!,Travel,296_will_be_there_soon.png
+297,Where Are You?,Travel,297_where_are_you.png
+298,Jet Lag!,Travel,298_jet_lag.png
+299,Just Landed!,Travel,299_just_landed.png
+300,Ready to Take Off!,Travel,300_ready_to_take_off.png
+301,Customs Clearing!,Travel,301_customs_clearing.png
+302,Baggage!,Travel,302_baggage.png
+303,Boarding!,Travel,303_boarding.png
 304,Driving – Can't Talk!,Travel,304_driving_can_t_talk.png
+305,It's Getting Late!,Travel,305_it_s_getting_late.png
 306,How are you?,Everyday,306_how_are_you.png
 307,Correct,Everyday,307_correct.png
 307a,Right-u,Tamil,307a_right_u.png
