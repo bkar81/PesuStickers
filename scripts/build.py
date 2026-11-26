@@ -28,12 +28,45 @@ META = os.path.join(ROOT, "stickers.json")
 NAME = re.compile(r"^(c?\d{3}[a-z]?)_(.+)\.png$", re.I)
 
 
-def exif(category):
+PLAY_LINK = "https://play.google.com/store/apps/details?id=dev.bkar81.pesu"
+# Default page order; WhatsApp packs follow it. Keep in step with StickerCatalog.DEFAULT_ORDER.
+ORDER = ["Everyday", "Daily Life", "Reactions", "Tamil", "Love & Family", "Office",
+         "Travel", "Support", "Trading", "Wishes & Festivals"]
+EMOJI = {"Everyday": "😊", "Daily Life": "🏠", "Reactions": "😮", "Tamil": "👌", "Love & Family": "❤️",
+         "Office": "💼", "Travel": "✈️", "Support": "🤗", "Trading": "📈", "Wishes & Festivals": "🎉"}
+
+
+def slug(t):
+    return re.sub(r"[^a-z0-9]+", "_", t.lower()).strip("_")
+
+
+def assign_packs(items):
+    """Splits each page into WhatsApp packs of at most 30, as evenly as possible.
+    Same rule as StickerPacks.kt in the app, so the details inside each file match its pack."""
+    cats = ORDER + sorted({i["category"] for i in items} - set(ORDER))
+    for cat in cats:
+        group = sorted([i for i in items if i["category"] == cat], key=lambda i: i["id"])
+        if not group:
+            continue
+        n = -(-len(group) // 30)
+        base, extra = divmod(len(group), n)
+        at = 0
+        for k in range(n):
+            size = base + (1 if k < extra else 0)
+            for i in group[at:at + size]:
+                i["pack"] = f"pesu_{slug(cat)}_{k + 1}"
+                i["packName"] = f"Pesu · {cat}" + (f" {k + 1}" if n > 1 else "")
+            at += size
+
+
+def exif(category, pack_id=None, pack_name=None):
     data = json.dumps({
-        "sticker-pack-id": "dev.bkar81.pesu.stickers",
-        "sticker-pack-name": f"Pesu Keyboard · {category}",
+        "sticker-pack-id": f"dev.bkar81.pesu.{pack_id}" if pack_id else "dev.bkar81.pesu.stickers",
+        "sticker-pack-name": pack_name or f"Pesu Keyboard · {category}",
         "sticker-pack-publisher": "BK · Pesu Keyboard",
-        "emojis": ["😊"],
+        "android-app-store-link": PLAY_LINK,
+        "ios-app-store-link": "",
+        "emojis": [EMOJI.get(category, "😊")],
     }, ensure_ascii=False).encode()
     return b"II*\x00\x08\x00\x00\x00\x01\x00" + struct.pack("<HHII", 0x5741, 7, len(data), 0x16) + data
 
@@ -186,13 +219,20 @@ def main():
     if os.path.exists(idx_path):
         old = {s["id"]: s for s in json.load(open(idx_path, encoding="utf-8")).get("stickers", [])}
 
+    hidden = set(meta.get("hidden", []))
+    visible = [dict(s) for s in stickers if s["id"] not in hidden and os.path.exists(os.path.join(SRC, s["file"]))]
+    assign_packs(visible)
+    packs = {v["id"]: (v["pack"], v["packName"]) for v in visible}
+
     items = []
     for s in stickers:
         src = os.path.join(SRC, s["file"])
         if not os.path.exists(src):
             print("missing file, skipped:", s["file"])
             continue
-        src_hash = hashlib.sha1(open(src, "rb").read() + s["category"].encode()
+        pack_id, pack_name = packs.get(s["id"], (None, None))
+        src_hash = hashlib.sha1(open(src, "rb").read() + s["category"].encode() + b"exif2"
+                                + (pack_id or "").encode() + (pack_name or "").encode()
                                 + {"white": b"cutout2", "black": b"cutblack1", "painted": b"rebuild1"}.get(background_kind(src), b"")).hexdigest()
         out_name = f"s{s['id']}.webp"
         out_path = os.path.join(OUT, out_name)
@@ -200,7 +240,7 @@ def main():
         if not (prev and prev.get("src") == src_hash and os.path.exists(out_path)):
             im = fit(src)
             for q in (80, 75, 70, 65, 60):
-                im.save(out_path, "WEBP", quality=q, method=4, exif=exif(s["category"]))
+                im.save(out_path, "WEBP", quality=q, method=4, exif=exif(s["category"], pack_id, pack_name))
                 if os.path.getsize(out_path) < 100_000:
                     break
             print("made", out_name, os.path.getsize(out_path) // 1024, "KB")
@@ -208,6 +248,9 @@ def main():
         for k in ("base", "tags"):
             if s.get(k):
                 item[k] = s[k]
+        if pack_id:
+            item["pack"] = pack_id
+            item["packName"] = pack_name
         item["file"] = out_name
         item["sha1"] = hashlib.sha1(open(out_path, "rb").read()).hexdigest()
         item["src"] = src_hash
