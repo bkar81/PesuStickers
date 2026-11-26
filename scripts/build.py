@@ -123,6 +123,14 @@ def main():
     if not unchanged:
         json.dump(index, open(idx_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(meta, open(META, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    # A plain list of every sticker's number, for keeping the original PNGs in step.
+    import csv
+    with open(os.path.join(ROOT, "numbers.csv"), "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.writer(f)
+        w.writerow(["Number", "Caption", "Page", "File"])
+        for s in sorted(stickers, key=lambda x: x["id"]):
+            if s["id"] not in index["hidden"]:
+                w.writerow([s["id"], s["caption"], s["category"], s["file"]])
     print(len(items), "stickers,", len(index["hidden"]), "hidden")
 
 

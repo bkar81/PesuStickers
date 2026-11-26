@@ -18,6 +18,10 @@ so they update without a new app version.
 Phones pick up the changes within a day, or straight away with **Get new stickers** on the
 Stickers tab.
 
+## Numbers
+
+`numbers.csv` lists every sticker's number, caption, page and file name (open it in Excel). New stickers can come in numbered above 350; they are given a free number and the list is updated.
+
 ## Hide a sticker
 
 Add its number to `"hidden"` at the end of `stickers.json`, e.g. `"hidden": ["191", "051"]`.
