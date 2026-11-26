@@ -1,5 +1,5 @@
 {
- "version": 1795687638,
+ "version": 1795687706,
  "stickers": [
   {
    "id": "001",
@@ -50,28 +50,12 @@
    "src": "a0a64f2beec58930652bc8a52cc7dd99a9727bb4"
   },
   {
-   "id": "007",
-   "caption": "Whatever!",
-   "category": "Everyday",
-   "file": "s007.webp",
-   "sha1": "536cfab49af51a93ad7ee2ece6b42058be51d5b0",
-   "src": "5bb9852016832c461676fe8539b4b6a5740554bc"
-  },
-  {
    "id": "008",
    "caption": "Seriously?",
    "category": "Everyday",
    "file": "s008.webp",
    "sha1": "c1f32044d3a255f3d79d54440d75e1f5c3af1a83",
    "src": "bd8b080ce8db634670b9f89b76d64a3aeee28a4a"
-  },
-  {
-   "id": "009",
-   "caption": "So Funny!",
-   "category": "Everyday",
-   "file": "s009.webp",
-   "sha1": "ea35a6bf8711aae909155668b97496f8516bdfe3",
-   "src": "747993431ae96d0b1455fd52139e384281bd722f"
   },
   {
    "id": "010",
@@ -146,14 +130,6 @@
    "src": "4bf96bd80d6e6be9d815fee0632a97acd7ad9edb"
   },
   {
-   "id": "019",
-   "caption": "Good Night",
-   "category": "Everyday",
-   "file": "s019.webp",
-   "sha1": "f0b9e75a7205a9981e8a8f4d14cb4922223eeb9e",
-   "src": "6e7413ce535961011d3a54659279267d5fc14df1"
-  },
-  {
    "id": "020",
    "caption": "Sweet Dreams",
    "category": "Everyday",
@@ -208,14 +184,6 @@
    "file": "s026.webp",
    "sha1": "3f8c90c5f9da25a76d8b08c3ac4826d1b3c2762d",
    "src": "c646a06e253ed9b074965d14bdd5554c21bf3c40"
-  },
-  {
-   "id": "027",
-   "caption": "Great Idea!",
-   "category": "Everyday",
-   "file": "s027.webp",
-   "sha1": "a7498b4e1f768c7ce21073f08c50e0f2ef19919b",
-   "src": "8d1d41d6d9314ef045f16debbc20080fd8814b01"
   },
   {
    "id": "028",
@@ -304,14 +272,6 @@
    "file": "s038.webp",
    "sha1": "034d722d4922899ee10fb9f9838ab121643fdef4",
    "src": "2d9d1efc4e78ef4c74d4cab55ff31e194f9dbd0d"
-  },
-  {
-   "id": "039",
-   "caption": "Seriously!",
-   "category": "Everyday",
-   "file": "s039.webp",
-   "sha1": "c8f9408dcbb514df5d1e9058ae112375223c1a19",
-   "src": "3c6277d1608aea76bb8cabe1301bcadec3eae6b6"
   },
   {
    "id": "040",
@@ -608,14 +568,6 @@
    "file": "s246.webp",
    "sha1": "17077becad970501f4ae5cc108670a4787850ce0",
    "src": "b41369b22e30607d78cd6ac572400d4b7f36d249"
-  },
-  {
-   "id": "250",
-   "caption": "Lots of Love!",
-   "category": "Wishes & Festivals",
-   "file": "s250.webp",
-   "sha1": "de35616be24773a8b2683b960f0b186327b77261",
-   "src": "bab2964bbd89c5c9649bb7af9014a4d8a749e46c"
   },
   {
    "id": "276",

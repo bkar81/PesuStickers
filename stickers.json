@@ -38,21 +38,9 @@
    "category": "Everyday"
   },
   {
-   "id": "007",
-   "file": "007_whatever.png",
-   "caption": "Whatever!",
-   "category": "Everyday"
-  },
-  {
    "id": "008",
    "file": "008_seriously.png",
    "caption": "Seriously?",
-   "category": "Everyday"
-  },
-  {
-   "id": "009",
-   "file": "009_so_funny.png",
-   "caption": "So Funny!",
    "category": "Everyday"
   },
   {
@@ -110,12 +98,6 @@
    "category": "Everyday"
   },
   {
-   "id": "019",
-   "file": "019_good_night.png",
-   "caption": "Good Night",
-   "category": "Everyday"
-  },
-  {
    "id": "020",
    "file": "020_sweet_dreams.png",
    "caption": "Sweet Dreams",
@@ -155,12 +137,6 @@
    "id": "026",
    "file": "026_deadline_pressure.png",
    "caption": "Deadline Pressure",
-   "category": "Everyday"
-  },
-  {
-   "id": "027",
-   "file": "027_great_idea.png",
-   "caption": "Great Idea!",
    "category": "Everyday"
   },
   {
@@ -227,12 +203,6 @@
    "id": "038",
    "file": "038_oh_no.png",
    "caption": "Oh No!",
-   "category": "Everyday"
-  },
-  {
-   "id": "039",
-   "file": "039_seriously.png",
-   "caption": "Seriously!",
    "category": "Everyday"
   },
   {
@@ -455,12 +425,6 @@
    "id": "246",
    "file": "246_you_made_it.png",
    "caption": "You Made It!",
-   "category": "Wishes & Festivals"
-  },
-  {
-   "id": "250",
-   "file": "250_lots_of_love.png",
-   "caption": "Lots of Love!",
    "category": "Wishes & Festivals"
   },
   {
