@@ -1300,9 +1300,14 @@
   },
   {
    "id": "235",
-   "file": "235_semma.png",
-   "caption": "Semma!",
-   "category": "Tamil"
+   "file": "235_samma.png",
+   "caption": "Samma!",
+   "category": "Tamil",
+   "tags": [
+    "awesome",
+    "semma",
+    "super"
+   ]
   },
   {
    "id": "236",
@@ -1445,7 +1450,14 @@
    "id": "258",
    "file": "258_had_dinner.png",
    "caption": "Had Dinner?",
-   "category": "Daily Life"
+   "category": "Daily Life",
+   "tags": [
+    "dinner",
+    "eaten",
+    "food",
+    "saapadu",
+    "sapteengala"
+   ]
   },
   {
    "id": "259",

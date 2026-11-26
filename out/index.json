@@ -1,5 +1,5 @@
 {
- "version": 1795705082,
+ "version": 1795710112,
  "stickers": [
   {
    "id": "001",
@@ -1705,24 +1705,29 @@
    "caption": "Super Pa!",
    "category": "Tamil",
    "file": "s234.webp",
-   "sha1": "bda8ce4ed903bf36f8e80b5f37cacef50f0246b6",
-   "src": "23e0188a6188ad5284b7afff52f709032b720ec4"
+   "sha1": "341a76edfbb620dd4b03b1f907e7d8348619dfd1",
+   "src": "967f4369bffe8356e55c5dbe24a26222c4f2e0be"
   },
   {
    "id": "235",
-   "caption": "Semma!",
+   "caption": "Samma!",
    "category": "Tamil",
+   "tags": [
+    "awesome",
+    "semma",
+    "super"
+   ],
    "file": "s235.webp",
-   "sha1": "af2a54e036a3da81b62d00c92a7e1abe7660729c",
-   "src": "56b00c6f6a2c344c8f07b800fe7989a1d9fd05fc"
+   "sha1": "29ffc6cff357307c0ab852854fc8ad293ef8ac91",
+   "src": "8c422b96a275262b9ba1e6dd461a39c9e3803f43"
   },
   {
    "id": "236",
    "caption": "Vera Level!",
    "category": "Tamil",
    "file": "s236.webp",
-   "sha1": "3d7acedd613e300a29ba7cdd5e52cb3e190edcf6",
-   "src": "1538a1fda262b5ca954e415e6d7e740db7756453"
+   "sha1": "39168284d6ced5ad34333f1bbc8836f0a1ac62c9",
+   "src": "f7a57f98d6951922af0c6b97ec7efb1d46394c4b"
   },
   {
    "id": "237",
@@ -1901,9 +1906,16 @@
    "id": "258",
    "caption": "Had Dinner?",
    "category": "Daily Life",
+   "tags": [
+    "dinner",
+    "eaten",
+    "food",
+    "saapadu",
+    "sapteengala"
+   ],
    "file": "s258.webp",
-   "sha1": "a8b3ffe46fb421daa1f14c842f6d0751b83b78b0",
-   "src": "bf658bbeed50c4f4b54f7b506821d87bd172a9c9"
+   "sha1": "8af3c9aacdc6bed5b4bd970be6679d099c1417e9",
+   "src": "d4dd5499080df573be483215f2660e48ff10cf5b"
   },
   {
    "id": "259",
