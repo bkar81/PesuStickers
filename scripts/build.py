@@ -38,12 +38,76 @@ def exif(category):
     return b"II*\x00\x08\x00\x00\x00\x01\x00" + struct.pack("<HHII", 0x5741, 7, len(data), 0x16) + data
 
 
-def needs_cutout(path):
-    """True for pictures saved on a white background instead of a see-through one."""
+def background_kind(path):
+    """None if the picture is already see-through; otherwise "white", "black" or "painted"
+    (a drawn checkerboard or shaded background)."""
     im = Image.open(path).convert("RGBA")
     w, h = im.size
-    return all(min(im.getpixel(p)[:3]) >= 240 and im.getpixel(p)[3] >= 250
-               for p in [(1, 1), (w - 2, 1), (1, h - 2), (w - 2, h - 2)])
+    px = [im.getpixel(p) for p in [(1, 1), (w - 2, 1), (1, h - 2), (w - 2, h - 2)]]
+    if all(p[3] < 10 for p in px):
+        return None
+    if all(min(p[:3]) >= 240 and p[3] >= 250 for p in px):
+        return "white"
+    if all(max(p[:3]) <= 20 for p in px):
+        return "black"
+    return "painted"
+
+
+def needs_cutout(path):
+    return background_kind(path) is not None
+
+
+def _disk(r):
+    import numpy as np
+    y, x = np.ogrid[-r:r + 1, -r:r + 1]
+    return x * x + y * y <= r * r
+
+
+def cut_black(im):
+    """Removes a plain black background (a see-through picture saved without transparency)."""
+    import numpy as np
+    from scipy import ndimage
+    a = np.asarray(im.convert("RGB")).astype(float)
+    sat = a.max(2) - a.min(2)
+    sm = ndimage.gaussian_filter(a.mean(2), 1.0)
+    grad = np.hypot(ndimage.sobel(sm, 0), ndimage.sobel(sm, 1)) / 8
+    cand = (sat < 22) & (grad < 6) & (a.max(2) < 60)
+    lab, _ = ndimage.label(cand)
+    edge = np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))
+    shape = ~np.isin(lab, edge[edge > 0])
+    shape = ndimage.binary_opening(shape, structure=_disk(max(3, round(min(im.size) / 120))))
+    lab, n = ndimage.label(shape)
+    if n > 1:
+        sizes = ndimage.sum(shape, lab, range(1, n + 1))
+        shape = np.isin(lab, [i + 1 for i, v in enumerate(sizes) if v >= sizes.max() * 0.002])
+    shape = ndimage.binary_fill_holes(shape)
+    alpha = np.clip((ndimage.gaussian_filter(shape.astype(float), 0.8) - 0.2) / 0.6, 0, 1) * 255
+    return Image.fromarray(np.dstack([a, alpha]).clip(0, 255).astype(np.uint8), "RGBA")
+
+
+def rebuild_border(im):
+    """For a sticker on a painted background (e.g. a drawn checkerboard): finds the drawing
+    itself, then draws a fresh white die-cut border with a thin grey edge line around it."""
+    import numpy as np
+    from scipy import ndimage
+    a = np.asarray(im.convert("RGB")).astype(float)
+    W = a.shape[1]
+    sat = a.max(2) - a.min(2)
+    content = (sat > 18) | (a.mean(2) < 150)
+    content = ndimage.binary_opening(content, structure=_disk(2))
+    k = max(4, round(W / 120))
+    content = ndimage.binary_closing(np.pad(content, k + 2), structure=_disk(k))[k + 2:-k - 2, k + 2:-k - 2]
+    content = ndimage.binary_fill_holes(content)
+    lab, n = ndimage.label(content)
+    if n > 1:
+        sizes = ndimage.sum(content, lab, range(1, n + 1))
+        content = np.isin(lab, [i + 1 for i, v in enumerate(sizes) if v >= sizes.max() * 0.003])
+    border = ndimage.binary_fill_holes(ndimage.binary_dilation(content, structure=_disk(max(8, round(W * 0.022)))))
+    ring = border & ~ndimage.binary_erosion(border, structure=_disk(2))
+    a[border & ~content] = 255
+    a[ring] = [214, 220, 226]
+    alpha = np.clip((ndimage.gaussian_filter(border.astype(float), 0.9) - 0.2) / 0.6, 0, 1) * 255
+    return Image.fromarray(np.dstack([a, alpha]).clip(0, 255).astype(np.uint8), "RGBA")
 
 
 def cut_out(im):
@@ -74,8 +138,13 @@ def cut_out(im):
 
 def fit(path):
     im = Image.open(path).convert("RGBA")
-    if needs_cutout(path):
+    kind = background_kind(path)
+    if kind == "white":
         im = cut_out(im)
+    elif kind == "black":
+        im = cut_black(im)
+    elif kind == "painted":
+        im = rebuild_border(im)
     box = im.getchannel("A").point(lambda v: 255 if v > 8 else 0).getbbox()
     if box:
         im = im.crop(box)
@@ -124,7 +193,7 @@ def main():
             print("missing file, skipped:", s["file"])
             continue
         src_hash = hashlib.sha1(open(src, "rb").read() + s["category"].encode()
-                                + (b"cutout2" if needs_cutout(src) else b"")).hexdigest()
+                                + {"white": b"cutout2", "black": b"cutblack1", "painted": b"rebuild1"}.get(background_kind(src), b"")).hexdigest()
         out_name = f"s{s['id']}.webp"
         out_path = os.path.join(OUT, out_name)
         prev = old.get(s["id"])
