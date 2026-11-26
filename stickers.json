@@ -411,7 +411,15 @@
    "id": "058",
    "file": "058_yawn.png",
    "caption": "Yawn...",
-   "category": "Reactions"
+   "category": "Reactions",
+   "tags": [
+    "feeling sleepy",
+    "sleep",
+    "sleepy",
+    "thookam",
+    "tired",
+    "yawn"
+   ]
   },
   {
    "id": "059",

@@ -1,5 +1,5 @@
 {
- "version": 1795695343,
+ "version": 1795705082,
  "stickers": [
   {
    "id": "001",
@@ -535,6 +535,14 @@
    "id": "058",
    "caption": "Yawn...",
    "category": "Reactions",
+   "tags": [
+    "feeling sleepy",
+    "sleep",
+    "sleepy",
+    "thookam",
+    "tired",
+    "yawn"
+   ],
    "file": "s058.webp",
    "sha1": "8cb62139fe9c4cf7fa1097d9bdbbb5944bd18a7a",
    "src": "8ee9d50f1bae4285ee617a3470107c09ff7b1e4c"
