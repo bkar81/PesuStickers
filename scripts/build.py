@@ -38,8 +38,44 @@ def exif(category):
     return b"II*\x00\x08\x00\x00\x00\x01\x00" + struct.pack("<HHII", 0x5741, 7, len(data), 0x16) + data
 
 
+def needs_cutout(path):
+    """True for pictures saved on a white background instead of a see-through one."""
+    im = Image.open(path).convert("RGBA")
+    w, h = im.size
+    return all(min(im.getpixel(p)[:3]) >= 240 and im.getpixel(p)[3] >= 250
+               for p in [(1, 1), (w - 2, 1), (1, h - 2), (w - 2, h - 2)])
+
+
+def cut_out(im):
+    """Makes the white background see-through. The sticker's thin grey edge line marks its
+    outline: everything that isn't near-white is joined up (small gaps in the line closed),
+    the inside is filled, and the white outside is removed with a soft one-pixel edge."""
+    import numpy as np
+    from scipy import ndimage
+    a = np.asarray(im.convert("RGBA")).astype(np.int16)
+    rgb = a[..., :3]
+    ink = rgb.min(axis=2) < 238
+    r = max(3, round(min(im.size) / 100))          # about 12 px on a 1254 px picture
+    y, x = np.ogrid[-r:r + 1, -r:r + 1]
+    disk = x * x + y * y <= r * r
+    pad = r + 2
+    shape = np.pad(ink, pad)
+    shape = ndimage.binary_closing(shape, structure=disk)[pad:-pad, pad:-pad]
+    shape = ndimage.binary_fill_holes(shape)
+    lab, n = ndimage.label(shape)
+    if n > 1:                                        # drop specks away from the sticker
+        sizes = ndimage.sum(shape, lab, range(1, n + 1))
+        shape = np.isin(lab, [i + 1 for i, v in enumerate(sizes) if v >= sizes.max() * 0.002])
+    soft = ndimage.gaussian_filter(shape.astype(float), 0.8)
+    alpha = np.minimum(a[..., 3] / 255.0, np.clip((soft - 0.2) / 0.6, 0, 1))
+    out = np.dstack([rgb, (alpha * 255).round()]).clip(0, 255).astype(np.uint8)
+    return Image.fromarray(out, "RGBA")
+
+
 def fit(path):
     im = Image.open(path).convert("RGBA")
+    if needs_cutout(path):
+        im = cut_out(im)
     box = im.getchannel("A").point(lambda v: 255 if v > 8 else 0).getbbox()
     if box:
         im = im.crop(box)
@@ -87,7 +123,8 @@ def main():
         if not os.path.exists(src):
             print("missing file, skipped:", s["file"])
             continue
-        src_hash = hashlib.sha1(open(src, "rb").read() + s["category"].encode()).hexdigest()
+        src_hash = hashlib.sha1(open(src, "rb").read() + s["category"].encode()
+                                + (b"cutout2" if needs_cutout(src) else b"")).hexdigest()
         out_name = f"s{s['id']}.webp"
         out_path = os.path.join(OUT, out_name)
         prev = old.get(s["id"])

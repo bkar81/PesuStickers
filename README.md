@@ -5,7 +5,7 @@ so they update without a new app version.
 
 ## Add or change a sticker
 
-1. Put the PNG in `source/`, named `<number>_<words>.png` (any size, transparent background).
+1. Put the PNG in `source/`, named `<number>_<words>.png` (any size; a white background is made see-through automatically).
    - Same number as an existing sticker = replaces it (e.g. `013_thank_you.png`).
    - New number = new sticker (e.g. `328_good_vibes.png`).
    - A letter after the number = a version of that sticker, found by the same searches
