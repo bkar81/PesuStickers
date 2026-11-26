@@ -55,6 +55,19 @@
    "category": "Everyday"
   },
   {
+   "id": "009",
+   "file": "009_it_s_all_ai.png",
+   "caption": "It's All AI",
+   "category": "Reactions",
+   "tags": [
+    "ai",
+    "chatgpt",
+    "robot",
+    "fake",
+    "claude"
+   ]
+  },
+  {
    "id": "010",
    "file": "010_love_it.png",
    "caption": "Love it!",
@@ -330,6 +343,12 @@
    "category": "Everyday"
   },
   {
+   "id": "c046",
+   "file": "c046_i_have_an_idea.png",
+   "caption": "I Have an Idea!",
+   "category": "Everyday"
+  },
+  {
    "id": "046a",
    "file": "046a_aamaam.png",
    "caption": "Aamaam",
@@ -341,15 +360,15 @@
    ]
   },
   {
-   "id": "c046",
-   "file": "c046_i_have_an_idea.png",
-   "caption": "I Have an Idea!",
-   "category": "Everyday"
-  },
-  {
    "id": "047",
    "file": "047_i_give_up.png",
    "caption": "I Give Up!",
+   "category": "Everyday"
+  },
+  {
+   "id": "c047",
+   "file": "c047_let_s_do_it.png",
+   "caption": "Let's Do It!",
    "category": "Everyday"
   },
   {
@@ -365,10 +384,28 @@
    ]
   },
   {
-   "id": "c047",
-   "file": "c047_let_s_do_it.png",
-   "caption": "Let's Do It!",
+   "id": "c049",
+   "file": "c049_much_love.png",
+   "caption": "Much Love!",
    "category": "Everyday"
+  },
+  {
+   "id": "050",
+   "file": "050_peekaboo.png",
+   "caption": "Peekaboo!",
+   "category": "Everyday"
+  },
+  {
+   "id": "052",
+   "file": "052_lol.png",
+   "caption": "LOL!",
+   "category": "Reactions"
+  },
+  {
+   "id": "053",
+   "file": "053_haha.png",
+   "caption": "Haha!",
+   "category": "Reactions"
   },
   {
    "id": "054",
@@ -380,6 +417,42 @@
    "id": "056",
    "file": "056_wow.png",
    "caption": "Wow!",
+   "category": "Reactions"
+  },
+  {
+   "id": "057",
+   "file": "057_seriously.png",
+   "caption": "Seriously!",
+   "category": "Reactions"
+  },
+  {
+   "id": "058",
+   "file": "058_yawn.png",
+   "caption": "Yawn...",
+   "category": "Reactions"
+  },
+  {
+   "id": "060",
+   "file": "060_namaste.png",
+   "caption": "Namaste!",
+   "category": "Reactions"
+  },
+  {
+   "id": "061",
+   "file": "061_party_time.png",
+   "caption": "Party Time!",
+   "category": "Reactions"
+  },
+  {
+   "id": "062",
+   "file": "062_really.png",
+   "caption": "Really?",
+   "category": "Reactions"
+  },
+  {
+   "id": "063",
+   "file": "063_not_good.png",
+   "caption": "Not Good!",
    "category": "Reactions"
   },
   {
@@ -395,15 +468,92 @@
    "category": "Reactions"
   },
   {
+   "id": "070",
+   "file": "070_confused.png",
+   "caption": "Confused?",
+   "category": "Reactions"
+  },
+  {
+   "id": "071",
+   "file": "071_i_m_angry.png",
+   "caption": "I'm Angry!",
+   "category": "Reactions"
+  },
+  {
+   "id": "072",
+   "file": "072_so_sad.png",
+   "caption": "So Sad...",
+   "category": "Reactions"
+  },
+  {
+   "id": "073",
+   "file": "073_please.png",
+   "caption": "Please...",
+   "category": "Reactions"
+  },
+  {
+   "id": "074",
+   "file": "074_i_care.png",
+   "caption": "I Care!",
+   "category": "Reactions"
+  },
+  {
+   "id": "075",
+   "file": "075_excited.png",
+   "caption": "Excited!",
+   "category": "Reactions"
+  },
+  {
    "id": "076",
    "file": "076_good_idea.png",
    "caption": "Good Idea!",
    "category": "Reactions"
   },
   {
+   "id": "077",
+   "file": "077_psst.png",
+   "caption": "Psst...",
+   "category": "Reactions"
+  },
+  {
+   "id": "078",
+   "file": "078_yummy.png",
+   "caption": "Yummy!",
+   "category": "Reactions"
+  },
+  {
+   "id": "079",
+   "file": "079_coffee_time.png",
+   "caption": "Coffee Time!",
+   "category": "Reactions"
+  },
+  {
+   "id": "080",
+   "file": "080_food.png",
+   "caption": "Food!",
+   "category": "Reactions",
+   "tags": [
+    "food",
+    "lunch",
+    "dinner",
+    "breakfast",
+    "saapadu",
+    "idli",
+    "dosa",
+    "hungry",
+    "pizza"
+   ]
+  },
+  {
    "id": "082",
    "file": "082_good_night.png",
    "caption": "Good Night!",
+   "category": "Reactions"
+  },
+  {
+   "id": "083",
+   "file": "083_time_to_travel.png",
+   "caption": "Time to Travel",
    "category": "Reactions"
   },
   {
@@ -413,9 +563,71 @@
    "category": "Reactions"
   },
   {
+   "id": "086",
+   "file": "086_reading.png",
+   "caption": "Reading...",
+   "category": "Reactions"
+  },
+  {
+   "id": "088",
+   "file": "088_music_on.png",
+   "caption": "Music On!",
+   "category": "Reactions"
+  },
+  {
+   "id": "089",
+   "file": "089_say_cheese.png",
+   "caption": "Say Cheese!",
+   "category": "Reactions"
+  },
+  {
+   "id": "090",
+   "file": "090_stylish.png",
+   "caption": "Stylish!",
+   "category": "Reactions"
+  },
+  {
+   "id": "093",
+   "file": "093_i_don_t_know.png",
+   "caption": "I Don't Know!",
+   "category": "Reactions"
+  },
+  {
+   "id": "094",
+   "file": "094_poor_me.png",
+   "caption": "Poor Me...",
+   "category": "Reactions"
+  },
+  {
    "id": "095",
    "file": "095_i_m_fine.png",
    "caption": "I'm Fine!",
+   "category": "Reactions"
+  },
+  {
+   "id": "099",
+   "file": "099_besties.png",
+   "caption": "Besties!",
+   "category": "Reactions"
+  },
+  {
+   "id": "099b",
+   "file": "099b_besties.png",
+   "caption": "Besties!",
+   "category": "Reactions",
+   "base": "099"
+  },
+  {
+   "id": "099c",
+   "file": "099c_besties.png",
+   "caption": "Besties!",
+   "category": "Reactions",
+   "base": "099"
+  },
+  {
+   "id": "100",
+   "file": "100_bye_bye.png",
+   "caption": "Bye Bye!",
    "category": "Reactions"
   },
   {
@@ -425,9 +637,33 @@
    "category": "Love & Family"
   },
   {
+   "id": "102",
+   "file": "102_miss_you.png",
+   "caption": "Miss You!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "104",
+   "file": "104_be_safe.png",
+   "caption": "Be Safe!",
+   "category": "Love & Family"
+  },
+  {
    "id": "105",
    "file": "105_proud_of_you.png",
    "caption": "Proud of You!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "106",
+   "file": "106_so_sweet.png",
+   "caption": "So Sweet!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "107",
+   "file": "107_you_re_awesome.png",
+   "caption": "You're Awesome!",
    "category": "Love & Family"
   },
   {
@@ -437,15 +673,178 @@
    "category": "Love & Family"
   },
   {
+   "id": "110",
+   "file": "110_so_kind.png",
+   "caption": "So Kind!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "111",
+   "file": "111_mom.png",
+   "caption": "Mom ❤️",
+   "category": "Love & Family"
+  },
+  {
+   "id": "112",
+   "file": "112_dad.png",
+   "caption": "Dad ❤️",
+   "category": "Love & Family"
+  },
+  {
+   "id": "113",
+   "file": "113_parents.png",
+   "caption": "Parents ❤️",
+   "category": "Love & Family"
+  },
+  {
+   "id": "114",
+   "file": "114_family.png",
+   "caption": "Family ❤️",
+   "category": "Love & Family"
+  },
+  {
+   "id": "114b",
+   "file": "114b_family.png",
+   "caption": "Family ❤️",
+   "category": "Love & Family",
+   "base": "114"
+  },
+  {
+   "id": "115",
+   "file": "115_my_people.png",
+   "caption": "My People ❤️",
+   "category": "Love & Family"
+  },
+  {
+   "id": "116",
+   "file": "116_my_kid.png",
+   "caption": "My Kid ❤️",
+   "category": "Love & Family"
+  },
+  {
+   "id": "117",
+   "file": "117_my_star.png",
+   "caption": "My Star ❤️",
+   "category": "Love & Family"
+  },
+  {
+   "id": "118",
+   "file": "118_my_hero.png",
+   "caption": "My Hero ❤️",
+   "category": "Love & Family"
+  },
+  {
+   "id": "119",
+   "file": "119_my_angel.png",
+   "caption": "My Angel ❤️",
+   "category": "Love & Family"
+  },
+  {
+   "id": "120",
+   "file": "120_home_sweet_home.png",
+   "caption": "Home Sweet Home!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "123",
+   "file": "123_take_rest.png",
+   "caption": "Take Rest!",
+   "category": "Love & Family"
+  },
+  {
    "id": "124",
    "file": "124_drink_water.png",
    "caption": "Drink Water!",
    "category": "Love & Family"
   },
   {
+   "id": "125",
+   "file": "125_eat_well.png",
+   "caption": "Eat Well!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "126",
+   "file": "126_stay_healthy.png",
+   "caption": "Stay Healthy!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "127",
+   "file": "127_i_m_here_for_you.png",
+   "caption": "I'm Here for You!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "129",
+   "file": "129_everything_will_be_fine.png",
+   "caption": "Everything Will Be Fine!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "130",
+   "file": "130_be_strong.png",
+   "caption": "Be Strong!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "131",
+   "file": "131_stay_positive.png",
+   "caption": "Stay Positive!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "132",
+   "file": "132_you_can_do_it.png",
+   "caption": "You Can Do It!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "133",
+   "file": "133_keep_going.png",
+   "caption": "Keep Going!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "135",
+   "file": "135_you_re_special.png",
+   "caption": "You're Special!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "136",
+   "file": "136_you_matter.png",
+   "caption": "You Matter!",
+   "category": "Love & Family"
+  },
+  {
    "id": "137",
    "file": "137_big_hugs.png",
    "caption": "Big Hugs!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "138",
+   "file": "138_need_a_hug.png",
+   "caption": "Need a Hug",
+   "category": "Love & Family",
+   "tags": [
+    "hug",
+    "sad",
+    "miss",
+    "hugs"
+   ]
+  },
+  {
+   "id": "139",
+   "file": "139_in_my_prayers.png",
+   "caption": "In My Prayers!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "142",
+   "file": "142_have_a_nice_day.png",
+   "caption": "Have a Nice Day!",
    "category": "Love & Family"
   },
   {
@@ -461,6 +860,30 @@
    "category": "Love & Family"
   },
   {
+   "id": "145",
+   "file": "145_good_evening.png",
+   "caption": "Good Evening!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "148",
+   "file": "148_happy_weekend.png",
+   "caption": "Happy Weekend!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "149",
+   "file": "149_see_you_soon.png",
+   "caption": "See You Soon!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "150",
+   "file": "150_stay_in_touch.png",
+   "caption": "Stay in Touch!",
+   "category": "Love & Family"
+  },
+  {
    "id": "151",
    "file": "151_on_a_call.png",
    "caption": "On a Call",
@@ -473,15 +896,110 @@
    "category": "Office"
   },
   {
+   "id": "153",
+   "file": "153_it_s_time.png",
+   "caption": "It's Time!",
+   "category": "Office"
+  },
+  {
+   "id": "154",
+   "file": "154_let_s_catch_up.png",
+   "caption": "Let's Catch Up!",
+   "category": "Office"
+  },
+  {
    "id": "155",
    "file": "155_on_a_break.png",
    "caption": "On a Break!",
    "category": "Office"
   },
   {
+   "id": "156",
+   "file": "156_will_do.png",
+   "caption": "Will Do",
+   "category": "Office",
+   "tags": [
+    "will do",
+    "ok",
+    "sure"
+   ]
+  },
+  {
+   "id": "157",
+   "file": "157_please_join.png",
+   "caption": "Please Join!",
+   "category": "Office"
+  },
+  {
+   "id": "158",
+   "file": "158_got_delayed.png",
+   "caption": "Got Delayed!",
+   "category": "Office"
+  },
+  {
+   "id": "159",
+   "file": "159_unable_to_attend.png",
+   "caption": "Unable to Attend!",
+   "category": "Office"
+  },
+  {
+   "id": "160",
+   "file": "160_busy_right_now.png",
+   "caption": "Busy Right Now!",
+   "category": "Office"
+  },
+  {
    "id": "161",
    "file": "161_too_stressed.png",
    "caption": "Too Stressed!",
+   "category": "Office"
+  },
+  {
+   "id": "162",
+   "file": "162_loads_of_work.png",
+   "caption": "Loads of Work!",
+   "category": "Office"
+  },
+  {
+   "id": "163",
+   "file": "163_head_is_splitting.png",
+   "caption": "Head is Splitting!",
+   "category": "Office"
+  },
+  {
+   "id": "164",
+   "file": "164_in_a_meeting.png",
+   "caption": "In a Meeting!",
+   "category": "Office"
+  },
+  {
+   "id": "165",
+   "file": "165_meeting_reminder.png",
+   "caption": "Meeting Reminder!",
+   "category": "Office"
+  },
+  {
+   "id": "167",
+   "file": "167_can_we_reschedule.png",
+   "caption": "Can We Reschedule?",
+   "category": "Office"
+  },
+  {
+   "id": "168",
+   "file": "168_as_discussed.png",
+   "caption": "As Discussed!",
+   "category": "Office"
+  },
+  {
+   "id": "169",
+   "file": "169_please_confirm.png",
+   "caption": "Please Confirm!",
+   "category": "Office"
+  },
+  {
+   "id": "170",
+   "file": "170_approved.png",
+   "caption": "Approved!",
    "category": "Office"
   },
   {
@@ -565,6 +1083,12 @@
    "id": "279",
    "file": "279_not_feeling_well.png",
    "caption": "Not Feeling Well!",
+   "category": "Daily Life"
+  },
+  {
+   "id": "285",
+   "file": "285_bro.png",
+   "caption": "Bro!",
    "category": "Daily Life"
   },
   {
@@ -757,7 +1281,6 @@
  ],
  "hidden": [
   "007",
-  "009",
   "019",
   "027",
   "039",
@@ -769,6 +1292,7 @@
   "065",
   "066",
   "069",
+  "081",
   "085",
   "087",
   "091",
@@ -782,12 +1306,10 @@
   "122",
   "128",
   "134",
-  "138",
   "140",
   "141",
   "146",
   "147",
-  "149",
   "166",
   "171",
   "172",
@@ -806,7 +1328,6 @@
   "219",
   "221",
   "225",
-  "242",
-  "c049"
+  "242"
  ]
 }
