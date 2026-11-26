@@ -1,0 +1,795 @@
+{
+ "note": "Edit captions, categories and tags here. Files live in source/. id = number in the file name (005a = a version of 005).",
+ "stickers": [
+  {
+   "id": "001",
+   "file": "001_hmm_let_s_see.png",
+   "caption": "Hmm... Let's see",
+   "category": "Everyday"
+  },
+  {
+   "id": "002",
+   "file": "002_hmm_it_happens.png",
+   "caption": "Hmm... It happens",
+   "category": "Everyday"
+  },
+  {
+   "id": "003",
+   "file": "003_hmm_what_to_do.png",
+   "caption": "Hmm... What to do?",
+   "category": "Everyday"
+  },
+  {
+   "id": "004",
+   "file": "004_okay_ok.png",
+   "caption": "Okay, OK",
+   "category": "Everyday"
+  },
+  {
+   "id": "005",
+   "file": "005_i_understand.png",
+   "caption": "I Understand",
+   "category": "Everyday"
+  },
+  {
+   "id": "006",
+   "file": "006_leave_it.png",
+   "caption": "Leave it",
+   "category": "Everyday"
+  },
+  {
+   "id": "007",
+   "file": "007_whatever.png",
+   "caption": "Whatever!",
+   "category": "Everyday"
+  },
+  {
+   "id": "008",
+   "file": "008_seriously.png",
+   "caption": "Seriously?",
+   "category": "Everyday"
+  },
+  {
+   "id": "009",
+   "file": "009_so_funny.png",
+   "caption": "So Funny!",
+   "category": "Everyday"
+  },
+  {
+   "id": "010",
+   "file": "010_love_it.png",
+   "caption": "Love it!",
+   "category": "Everyday"
+  },
+  {
+   "id": "011",
+   "file": "011_awesome.png",
+   "caption": "Awesome!",
+   "category": "Everyday"
+  },
+  {
+   "id": "012",
+   "file": "012_let_s_celebrate.png",
+   "caption": "Let's Celebrate!",
+   "category": "Everyday"
+  },
+  {
+   "id": "013",
+   "file": "013_thank_you.png",
+   "caption": "Thank You",
+   "category": "Everyday"
+  },
+  {
+   "id": "014",
+   "file": "014_thanks_a_lot.png",
+   "caption": "Thanks a Lot",
+   "category": "Everyday"
+  },
+  {
+   "id": "015",
+   "file": "015_well_done.png",
+   "caption": "Well Done!",
+   "category": "Everyday"
+  },
+  {
+   "id": "016",
+   "file": "016_good_job.png",
+   "caption": "Good Job!",
+   "category": "Everyday"
+  },
+  {
+   "id": "017",
+   "file": "017_take_care.png",
+   "caption": "Take Care",
+   "category": "Everyday"
+  },
+  {
+   "id": "018",
+   "file": "018_missing_you.png",
+   "caption": "Missing You",
+   "category": "Everyday"
+  },
+  {
+   "id": "019",
+   "file": "019_good_night.png",
+   "caption": "Good Night",
+   "category": "Everyday"
+  },
+  {
+   "id": "020",
+   "file": "020_sweet_dreams.png",
+   "caption": "Sweet Dreams",
+   "category": "Everyday"
+  },
+  {
+   "id": "021",
+   "file": "021_need_coffee.png",
+   "caption": "Need Coffee!",
+   "category": "Everyday"
+  },
+  {
+   "id": "022",
+   "file": "022_working_on_it.png",
+   "caption": "Working on it",
+   "category": "Everyday"
+  },
+  {
+   "id": "023",
+   "file": "023_noted.png",
+   "caption": "Noted",
+   "category": "Everyday"
+  },
+  {
+   "id": "024",
+   "file": "024_will_check.png",
+   "caption": "Will Check",
+   "category": "Everyday"
+  },
+  {
+   "id": "025",
+   "file": "025_still_waiting.png",
+   "caption": "Still Waiting...",
+   "category": "Everyday"
+  },
+  {
+   "id": "026",
+   "file": "026_deadline_pressure.png",
+   "caption": "Deadline Pressure",
+   "category": "Everyday"
+  },
+  {
+   "id": "027",
+   "file": "027_great_idea.png",
+   "caption": "Great Idea!",
+   "category": "Everyday"
+  },
+  {
+   "id": "028",
+   "file": "028_cool.png",
+   "caption": "Cool!",
+   "category": "Everyday"
+  },
+  {
+   "id": "029",
+   "file": "029_chill_mode.png",
+   "caption": "Chill Mode",
+   "category": "Everyday"
+  },
+  {
+   "id": "030",
+   "file": "030_call_me.png",
+   "caption": "Call Me",
+   "category": "Everyday"
+  },
+  {
+   "id": "031",
+   "file": "031_on_it.png",
+   "caption": "On it!",
+   "category": "Everyday"
+  },
+  {
+   "id": "032",
+   "file": "032_got_it.png",
+   "caption": "Got it!",
+   "category": "Everyday"
+  },
+  {
+   "id": "033",
+   "file": "033_one_minute.png",
+   "caption": "One Minute",
+   "category": "Everyday"
+  },
+  {
+   "id": "034",
+   "file": "034_see_you.png",
+   "caption": "See You!",
+   "category": "Everyday"
+  },
+  {
+   "id": "035",
+   "file": "035_muah.png",
+   "caption": "Muah!",
+   "category": "Everyday"
+  },
+  {
+   "id": "036",
+   "file": "036_be_happy.png",
+   "caption": "Be Happy!",
+   "category": "Everyday"
+  },
+  {
+   "id": "037",
+   "file": "037_don_t_worry.png",
+   "caption": "Don't Worry",
+   "category": "Everyday"
+  },
+  {
+   "id": "038",
+   "file": "038_oh_no.png",
+   "caption": "Oh No!",
+   "category": "Everyday"
+  },
+  {
+   "id": "039",
+   "file": "039_seriously.png",
+   "caption": "Seriously!",
+   "category": "Everyday"
+  },
+  {
+   "id": "040",
+   "file": "040_enough.png",
+   "caption": "Enough!",
+   "category": "Everyday"
+  },
+  {
+   "id": "041",
+   "file": "041_attention.png",
+   "caption": "Attention!",
+   "category": "Everyday"
+  },
+  {
+   "id": "042",
+   "file": "042_thinking.png",
+   "caption": "Thinking...",
+   "category": "Everyday"
+  },
+  {
+   "id": "043",
+   "file": "043_not_sure.png",
+   "caption": "Not Sure",
+   "category": "Everyday"
+  },
+  {
+   "id": "044",
+   "file": "044_oops.png",
+   "caption": "Oops!",
+   "category": "Everyday"
+  },
+  {
+   "id": "045",
+   "file": "045_no_way.png",
+   "caption": "No Way!",
+   "category": "Everyday"
+  },
+  {
+   "id": "046",
+   "file": "046_yes.png",
+   "caption": "Yes!",
+   "category": "Everyday"
+  },
+  {
+   "id": "047",
+   "file": "047_i_give_up.png",
+   "caption": "I Give Up!",
+   "category": "Everyday"
+  },
+  {
+   "id": "054",
+   "file": "054_hmm.png",
+   "caption": "Hmm...",
+   "category": "Reactions"
+  },
+  {
+   "id": "056",
+   "file": "056_wow.png",
+   "caption": "Wow!",
+   "category": "Reactions"
+  },
+  {
+   "id": "067",
+   "file": "067_aww.png",
+   "caption": "Aww...",
+   "category": "Reactions"
+  },
+  {
+   "id": "068",
+   "file": "068_you_rock.png",
+   "caption": "You Rock!",
+   "category": "Reactions"
+  },
+  {
+   "id": "076",
+   "file": "076_good_idea.png",
+   "caption": "Good Idea!",
+   "category": "Reactions"
+  },
+  {
+   "id": "082",
+   "file": "082_good_night.png",
+   "caption": "Good Night!",
+   "category": "Reactions"
+  },
+  {
+   "id": "084",
+   "file": "084_on_the_way.png",
+   "caption": "On the Way!",
+   "category": "Reactions"
+  },
+  {
+   "id": "095",
+   "file": "095_i_m_fine.png",
+   "caption": "I'm Fine!",
+   "category": "Reactions"
+  },
+  {
+   "id": "101",
+   "file": "101_love_you.png",
+   "caption": "Love You!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "105",
+   "file": "105_proud_of_you.png",
+   "caption": "Proud of You!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "109",
+   "file": "109_thanks_a_million.png",
+   "caption": "Thanks a Million!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "124",
+   "file": "124_drink_water.png",
+   "caption": "Drink Water!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "137",
+   "file": "137_big_hugs.png",
+   "caption": "Big Hugs!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "138",
+   "file": "138_lots_of_love.png",
+   "caption": "Lots of Love!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "143",
+   "file": "143_good_morning.png",
+   "caption": "Good Morning!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "144",
+   "file": "144_good_afternoon.png",
+   "caption": "Good Afternoon!",
+   "category": "Love & Family"
+  },
+  {
+   "id": "151",
+   "file": "151_on_a_call.png",
+   "caption": "On a Call",
+   "category": "Office"
+  },
+  {
+   "id": "152",
+   "file": "152_talk_to_you_later.png",
+   "caption": "Talk to You Later!",
+   "category": "Office"
+  },
+  {
+   "id": "155",
+   "file": "155_on_a_break.png",
+   "caption": "On a Break!",
+   "category": "Office"
+  },
+  {
+   "id": "161",
+   "file": "161_too_stressed.png",
+   "caption": "Too Stressed!",
+   "category": "Office"
+  },
+  {
+   "id": "201",
+   "file": "201_happy_birthday.png",
+   "caption": "Happy Birthday!",
+   "category": "Wishes & Festivals"
+  },
+  {
+   "id": "202",
+   "file": "202_happy_anniversary.png",
+   "caption": "Happy Anniversary!",
+   "category": "Wishes & Festivals"
+  },
+  {
+   "id": "203",
+   "file": "203_congratulations.png",
+   "caption": "Congratulations!",
+   "category": "Wishes & Festivals"
+  },
+  {
+   "id": "204",
+   "file": "204_happy_new_year.png",
+   "caption": "Happy New Year!",
+   "category": "Wishes & Festivals"
+  },
+  {
+   "id": "205",
+   "file": "205_happy_pongal.png",
+   "caption": "Happy Pongal!",
+   "category": "Wishes & Festivals"
+  },
+  {
+   "id": "208",
+   "file": "208_happy_karthigai.png",
+   "caption": "Happy Karthigai!",
+   "category": "Wishes & Festivals"
+  },
+  {
+   "id": "226",
+   "file": "226_sending_hugs.png",
+   "caption": "Sending Hugs",
+   "category": "Support"
+  },
+  {
+   "id": "227",
+   "file": "227_feel_better_soon.png",
+   "caption": "Feel Better Soon",
+   "category": "Support"
+  },
+  {
+   "id": "246",
+   "file": "246_you_made_it.png",
+   "caption": "You Made It!",
+   "category": "Wishes & Festivals"
+  },
+  {
+   "id": "250",
+   "file": "250_lots_of_love.png",
+   "caption": "Lots of Love!",
+   "category": "Wishes & Festivals"
+  },
+  {
+   "id": "276",
+   "file": "276_not_in_a_mood.png",
+   "caption": "Not in a Mood!",
+   "category": "Daily Life"
+  },
+  {
+   "id": "279",
+   "file": "279_not_feeling_well.png",
+   "caption": "Not Feeling Well!",
+   "category": "Daily Life"
+  },
+  {
+   "id": "294",
+   "file": "294_waiting_for_you.png",
+   "caption": "Waiting for You!",
+   "category": "Travel"
+  },
+  {
+   "id": "304",
+   "file": "304_driving_can_t_talk.png",
+   "caption": "Driving – Can't Talk!",
+   "category": "Travel"
+  },
+  {
+   "id": "306",
+   "file": "306_how_are_you.png",
+   "caption": "How are you?",
+   "category": "Everyday"
+  },
+  {
+   "id": "c035",
+   "file": "c035_let_me_process_this.png",
+   "caption": "Let Me Process This...",
+   "category": "Everyday"
+  },
+  {
+   "id": "c036",
+   "file": "c036_no_comments.png",
+   "caption": "No Comments",
+   "category": "Everyday"
+  },
+  {
+   "id": "c037",
+   "file": "c037_whatever.png",
+   "caption": "Whatever...!",
+   "category": "Everyday"
+  },
+  {
+   "id": "c038",
+   "file": "c038_that_s_a_good_one.png",
+   "caption": "That's a Good One!",
+   "category": "Everyday"
+  },
+  {
+   "id": "c040",
+   "file": "c040_i_can_t_believe_this.png",
+   "caption": "I Can't Believe This!",
+   "category": "Everyday"
+  },
+  {
+   "id": "c041",
+   "file": "c041_waiting_patiently.png",
+   "caption": "Waiting Patiently...",
+   "category": "Everyday"
+  },
+  {
+   "id": "c044",
+   "file": "c044_sure.png",
+   "caption": "Sure!",
+   "category": "Everyday"
+  },
+  {
+   "id": "c045",
+   "file": "c045_no_worries.png",
+   "caption": "No Worries!",
+   "category": "Everyday"
+  },
+  {
+   "id": "c046",
+   "file": "c046_i_have_an_idea.png",
+   "caption": "I Have an Idea!",
+   "category": "Everyday"
+  },
+  {
+   "id": "c047",
+   "file": "c047_let_s_do_it.png",
+   "caption": "Let's Do It!",
+   "category": "Everyday"
+  },
+  {
+   "id": "307",
+   "file": "307_correct.png",
+   "caption": "Correct",
+   "category": "Everyday",
+   "tags": [
+    "right",
+    "yes",
+    "true"
+   ]
+  },
+  {
+   "id": "046a",
+   "file": "046a_aamaam.png",
+   "caption": "Aamaam",
+   "category": "Tamil",
+   "base": "046",
+   "tags": [
+    "aama",
+    "yes"
+   ]
+  },
+  {
+   "id": "309",
+   "file": "309_me_too.png",
+   "caption": "Me too",
+   "category": "Everyday",
+   "tags": [
+    "same",
+    "me also",
+    "naanum"
+   ]
+  },
+  {
+   "id": "310",
+   "file": "310_i_think_so.png",
+   "caption": "I think so",
+   "category": "Everyday",
+   "tags": [
+    "maybe",
+    "think"
+   ]
+  },
+  {
+   "id": "311",
+   "file": "311_never_mind.png",
+   "caption": "Never Mind",
+   "category": "Everyday",
+   "tags": [
+    "forget it",
+    "leave it",
+    "paravala"
+   ]
+  },
+  {
+   "id": "004a",
+   "file": "004a_ok_pa.png",
+   "caption": "OK pa",
+   "category": "Tamil",
+   "base": "004",
+   "tags": [
+    "okay",
+    "ok"
+   ]
+  },
+  {
+   "id": "307a",
+   "file": "307a_right_u.png",
+   "caption": "Right-u",
+   "category": "Tamil",
+   "base": "307",
+   "tags": [
+    "right",
+    "correct"
+   ]
+  },
+  {
+   "id": "015a",
+   "file": "015a_kalakitta_po.png",
+   "caption": "Kalakitta Po!",
+   "category": "Tamil",
+   "base": "015",
+   "tags": [
+    "kalakkitta",
+    "well done",
+    "super"
+   ]
+  },
+  {
+   "id": "011a",
+   "file": "011a_arumai.png",
+   "caption": "Arumai",
+   "category": "Tamil",
+   "base": "011",
+   "tags": [
+    "superb",
+    "excellent"
+   ]
+  },
+  {
+   "id": "317a",
+   "file": "317a_azhagaa_irukku.png",
+   "caption": "Azhagaa Irukku",
+   "category": "Tamil",
+   "base": "317",
+   "tags": [
+    "beautiful",
+    "azhagu",
+    "pretty"
+   ]
+  },
+  {
+   "id": "317",
+   "file": "317_beautiful.png",
+   "caption": "Beautiful",
+   "category": "Reactions",
+   "tags": [
+    "pretty",
+    "nice",
+    "lovely",
+    "super"
+   ]
+  },
+  {
+   "id": "307b",
+   "file": "307b_pakka.png",
+   "caption": "Pakka",
+   "category": "Tamil",
+   "base": "307",
+   "tags": [
+    "perfect",
+    "sure",
+    "pakka"
+   ]
+  },
+  {
+   "id": "285a",
+   "file": "285a_machaa.png",
+   "caption": "Machaa!",
+   "category": "Tamil",
+   "base": "285",
+   "tags": [
+    "macha",
+    "friend",
+    "bro"
+   ]
+  },
+  {
+   "id": "237a",
+   "file": "237a_therikka_vidudhu.png",
+   "caption": "Therikka Vidudhu",
+   "category": "Tamil",
+   "base": "237",
+   "tags": [
+    "mass",
+    "fire"
+   ]
+  },
+  {
+   "id": "321",
+   "file": "321_omg.png",
+   "caption": "OMG!",
+   "category": "Reactions",
+   "tags": [
+    "wow",
+    "shock",
+    "surprise",
+    "oh my god"
+   ]
+  },
+  {
+   "id": "321a",
+   "file": "321a_yeppurraa.png",
+   "caption": "Yeppurraa!",
+   "category": "Tamil",
+   "base": "321",
+   "tags": [
+    "wow",
+    "omg",
+    "eppadi"
+   ]
+  },
+  {
+   "id": "323",
+   "file": "323_vaaipilla_raja.png",
+   "caption": "Vaaipilla Raja",
+   "category": "Tamil",
+   "tags": [
+    "no chance",
+    "mudiyadhu"
+   ]
+  },
+  {
+   "id": "324",
+   "file": "324_kashtam.png",
+   "caption": "Kashtam",
+   "category": "Tamil",
+   "tags": [
+    "difficult",
+    "tough",
+    "hard"
+   ]
+  },
+  {
+   "id": "047a",
+   "file": "047a_mudiyala.png",
+   "caption": "Mudiyala",
+   "category": "Tamil",
+   "base": "047",
+   "tags": [
+    "cant",
+    "tired",
+    "give up"
+   ]
+  },
+  {
+   "id": "326",
+   "file": "326_escape.png",
+   "caption": "Escape",
+   "category": "Reactions",
+   "tags": [
+    "run",
+    "escape",
+    "bye"
+   ]
+  },
+  {
+   "id": "327",
+   "file": "327_chummaa.png",
+   "caption": "Chummaa",
+   "category": "Tamil",
+   "tags": [
+    "just kidding",
+    "joke",
+    "summa"
+   ]
+  }
+ ],
+ "hidden": []
+}

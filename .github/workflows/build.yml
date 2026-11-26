@@ -1,0 +1,24 @@
+name: Build stickers
+on:
+  push:
+    branches: [main]
+    paths: ["source/**", "stickers.json", "scripts/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python scripts/build.py
+      - name: Save the made stickers
+        run: |
+          git config user.name "Pesu Stickers"
+          git config user.email "bkar.dev@gmail.com"
+          git add -A out stickers.json
+          git diff --cached --quiet || (git commit -m "Make sticker files" && git push)

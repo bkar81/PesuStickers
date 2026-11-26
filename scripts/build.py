@@ -1,0 +1,130 @@
+"""Turns the PNGs in source/ into the sticker files Pesu downloads (out/).
+
+Run by GitHub on every push (see .github/workflows/build.yml), or by hand:
+    pip install pillow
+    python scripts/build.py
+
+- A PNG in source/ that isn't in stickers.json yet gets a line added for it: the id is the
+  number at the start of the file name (005a = a version of 005), the caption comes from the
+  rest of the name, and the category is copied from the base number (or "Everyday").
+  Fix the caption in stickers.json afterwards if it needs punctuation.
+- Every sticker is trimmed, fitted into 512x512 and saved as WebP under 100 KB, with the
+  WhatsApp sticker details (Pesu Keyboard / BK) inside.
+- out/index.json lists every sticker with a checksum, so the app downloads only what changed.
+"""
+import hashlib
+import json
+import os
+import re
+import struct
+import time
+
+from PIL import Image
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC = os.path.join(ROOT, "source")
+OUT = os.path.join(ROOT, "out")
+META = os.path.join(ROOT, "stickers.json")
+NAME = re.compile(r"^(c?\d{3}[a-z]?)_(.+)\.png$", re.I)
+
+
+def exif(category):
+    data = json.dumps({
+        "sticker-pack-id": "dev.bkar81.pesu.stickers",
+        "sticker-pack-name": f"Pesu Keyboard · {category}",
+        "sticker-pack-publisher": "BK · Pesu Keyboard",
+        "emojis": ["😊"],
+    }, ensure_ascii=False).encode()
+    return b"II*\x00\x08\x00\x00\x00\x01\x00" + struct.pack("<HHII", 0x5741, 7, len(data), 0x16) + data
+
+
+def fit(path):
+    im = Image.open(path).convert("RGBA")
+    box = im.getchannel("A").point(lambda v: 255 if v > 8 else 0).getbbox()
+    if box:
+        im = im.crop(box)
+    s = 480 / max(im.size)
+    im = im.resize((max(1, round(im.width * s)), max(1, round(im.height * s))), Image.LANCZOS)
+    canvas = Image.new("RGBA", (512, 512), (0, 0, 0, 0))
+    canvas.paste(im, ((512 - im.width) // 2, (512 - im.height) // 2), im)
+    return canvas
+
+
+def main():
+    meta = json.load(open(META, encoding="utf-8"))
+    stickers = meta["stickers"]
+    by_id = {s["id"]: s for s in stickers}
+    by_file = {s["file"]: s for s in stickers}
+
+    # New PNGs get a line in stickers.json.
+    for f in sorted(os.listdir(SRC)):
+        m = NAME.match(f)
+        if not m or f in by_file:
+            continue
+        sid = m.group(1).lower()
+        caption = m.group(2).replace("_", " ").strip().title()
+        base = sid[:-1] if sid[-1].isalpha() else None
+        entry = {"id": sid, "file": f, "caption": caption,
+                 "category": by_id[base]["category"] if base and base in by_id else "Everyday"}
+        if base:
+            entry["base"] = base
+        if sid in by_id:          # same number, new file: replace the old line's file
+            by_id[sid]["file"] = f
+        else:
+            stickers.append(entry)
+            by_id[sid] = entry
+        print("added", sid, f)
+
+    os.makedirs(OUT, exist_ok=True)
+    old = {}
+    idx_path = os.path.join(OUT, "index.json")
+    if os.path.exists(idx_path):
+        old = {s["id"]: s for s in json.load(open(idx_path, encoding="utf-8")).get("stickers", [])}
+
+    items = []
+    for s in stickers:
+        src = os.path.join(SRC, s["file"])
+        if not os.path.exists(src):
+            print("missing file, skipped:", s["file"])
+            continue
+        src_hash = hashlib.sha1(open(src, "rb").read() + s["category"].encode()).hexdigest()
+        out_name = f"s{s['id']}.webp"
+        out_path = os.path.join(OUT, out_name)
+        prev = old.get(s["id"])
+        if not (prev and prev.get("src") == src_hash and os.path.exists(out_path)):
+            im = fit(src)
+            for q in (80, 75, 70, 65, 60):
+                im.save(out_path, "WEBP", quality=q, method=4, exif=exif(s["category"]))
+                if os.path.getsize(out_path) < 100_000:
+                    break
+            print("made", out_name, os.path.getsize(out_path) // 1024, "KB")
+        item = {k: s[k] for k in ("id", "caption", "category") }
+        for k in ("base", "tags"):
+            if s.get(k):
+                item[k] = s[k]
+        item["file"] = out_name
+        item["sha1"] = hashlib.sha1(open(out_path, "rb").read()).hexdigest()
+        item["src"] = src_hash
+        items.append(item)
+
+    keep = {i["file"] for i in items}
+    for f in os.listdir(OUT):
+        if f.endswith(".webp") and f not in keep:
+            os.remove(os.path.join(OUT, f))
+            print("removed", f)
+
+    index = {
+        "version": int(time.time()),
+        "stickers": items,
+        "hidden": meta.get("hidden", []),
+    }
+    unchanged = old and [ {k: v for k, v in i.items()} for i in items ] == list(old.values()) \
+        and json.load(open(idx_path, encoding="utf-8")).get("hidden", []) == index["hidden"]
+    if not unchanged:
+        json.dump(index, open(idx_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(meta, open(META, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(len(items), "stickers,", len(index["hidden"]), "hidden")
+
+
+if __name__ == "__main__":
+    main()
