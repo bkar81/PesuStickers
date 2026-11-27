@@ -1239,6 +1239,19 @@
    "category": "Office"
   },
   {
+   "id": "166",
+   "file": "166_dis_gusting.png",
+   "caption": "Dis… gusting…",
+   "category": "GenZ",
+   "tags": [
+    "disgusting",
+    "eww",
+    "yuck",
+    "chee",
+    "kevalam"
+   ]
+  },
+  {
    "id": "167",
    "file": "167_can_we_reschedule.png",
    "caption": "Can We Reschedule?",
@@ -1263,6 +1276,31 @@
    "category": "Office"
   },
   {
+   "id": "171",
+   "file": "171_6_7.png",
+   "caption": "6…7",
+   "category": "GenZ",
+   "tags": [
+    "6 7",
+    "six seven",
+    "67",
+    "so so"
+   ]
+  },
+  {
+   "id": "172",
+   "file": "172_faaaah.png",
+   "caption": "Faaaah…",
+   "category": "GenZ",
+   "tags": [
+    "faah",
+    "fah",
+    "shout",
+    "scream",
+    "aaah"
+   ]
+  },
+  {
    "id": "173",
    "file": "173_received.png",
    "caption": "Received!",
@@ -1281,16 +1319,89 @@
    "category": "Office"
   },
   {
+   "id": "176",
+   "file": "176_bruh.png",
+   "caption": "Bruh…",
+   "category": "GenZ",
+   "tags": [
+    "bruh",
+    "facepalm",
+    "seriously",
+    "dei"
+   ]
+  },
+  {
+   "id": "177",
+   "file": "177_sus.png",
+   "caption": "Sus",
+   "category": "GenZ",
+   "tags": [
+    "sus",
+    "suspicious",
+    "doubt",
+    "sandhegam"
+   ]
+  },
+  {
+   "id": "178",
+   "file": "178_cringe.png",
+   "caption": "Cringe",
+   "category": "GenZ",
+   "tags": [
+    "cringe",
+    "awkward",
+    "embarrassing"
+   ]
+  },
+  {
+   "id": "179",
+   "file": "179_no_cap.png",
+   "caption": "No Cap",
+   "category": "GenZ",
+   "tags": [
+    "no cap",
+    "for real",
+    "trust me",
+    "promise",
+    "sathiyama"
+   ]
+  },
+  {
    "id": "180",
    "file": "180_pending.png",
    "caption": "Pending!",
    "category": "Office"
   },
   {
+   "id": "181",
+   "file": "181_bet.png",
+   "caption": "Bet",
+   "category": "GenZ",
+   "tags": [
+    "bet",
+    "okay",
+    "deal",
+    "sure",
+    "done"
+   ]
+  },
+  {
    "id": "182",
    "file": "182_will_get_back_to_you.png",
    "caption": "Will Get Back to You!",
    "category": "Office"
+  },
+  {
+   "id": "183",
+   "file": "183_slay.png",
+   "caption": "Slay",
+   "category": "GenZ",
+   "tags": [
+    "slay",
+    "killing it",
+    "stylish",
+    "mass"
+   ]
   },
   {
    "id": "184",
@@ -1311,6 +1422,18 @@
    "category": "Office"
   },
   {
+   "id": "187",
+   "file": "187_rizz.png",
+   "caption": "Rizz",
+   "category": "GenZ",
+   "tags": [
+    "rizz",
+    "charm",
+    "flirt",
+    "smooth"
+   ]
+  },
+  {
    "id": "188",
    "file": "188_feedback_please.png",
    "caption": "Feedback Please!",
@@ -1329,6 +1452,18 @@
    "category": "Office"
   },
   {
+   "id": "191",
+   "file": "191_aura_1000.png",
+   "caption": "Aura +1000",
+   "category": "GenZ",
+   "tags": [
+    "aura",
+    "respect",
+    "legend",
+    "plus 1000"
+   ]
+  },
+  {
    "id": "192",
    "file": "192_of_course.png",
    "caption": "Of Course!",
@@ -1339,6 +1474,19 @@
    "file": "193_agreed.png",
    "caption": "Agreed!",
    "category": "Office"
+  },
+  {
+   "id": "194",
+   "file": "194_bro_is_cooked.png",
+   "caption": "Bro is Cooked",
+   "category": "GenZ",
+   "tags": [
+    "cooked",
+    "finished",
+    "gone",
+    "doomed",
+    "sethan"
+   ]
   },
   {
    "id": "195",
@@ -1449,6 +1597,31 @@
    "category": "Support"
   },
   {
+   "id": "213",
+   "file": "213_delulu.png",
+   "caption": "Delulu",
+   "category": "GenZ",
+   "tags": [
+    "delulu",
+    "delusional",
+    "dreaming",
+    "kanavu"
+   ]
+  },
+  {
+   "id": "214",
+   "file": "214_okay.png",
+   "caption": "Okay",
+   "category": "Everyday",
+   "tags": [
+    "okay",
+    "ok",
+    "fine",
+    "sari",
+    "seri"
+   ]
+  },
+  {
    "id": "215",
    "file": "215_never_give_up.png",
    "caption": "Never Give Up!",
@@ -1461,16 +1634,54 @@
    "category": "Support"
   },
   {
+   "id": "217",
+   "file": "217_love_you.png",
+   "caption": "Love You!",
+   "category": "GenZ",
+   "tags": [
+    "love you",
+    "finger heart",
+    "heart",
+    "luv"
+   ]
+  },
+  {
    "id": "218",
    "file": "218_one_step_at_a_time.png",
    "caption": "One Step at a Time!",
    "category": "Support"
   },
   {
+   "id": "219",
+   "file": "219_wassup.png",
+   "caption": "Wassup!",
+   "category": "GenZ",
+   "tags": [
+    "wassup",
+    "whats up",
+    "hi",
+    "hey",
+    "enna"
+   ]
+  },
+  {
    "id": "220",
    "file": "220_keep_smiling.png",
    "caption": "Keep Smiling!",
    "category": "Support"
+  },
+  {
+   "id": "221",
+   "file": "221_dawg.png",
+   "caption": "Dawg!",
+   "category": "GenZ",
+   "tags": [
+    "dawg",
+    "bro",
+    "buddy",
+    "machan",
+    "nanba"
+   ]
   },
   {
    "id": "222",
@@ -1489,6 +1700,19 @@
    "file": "224_it_s_okay.png",
    "caption": "It's Okay",
    "category": "Support"
+  },
+  {
+   "id": "225",
+   "file": "225_i_m_crine_laugh.png",
+   "caption": "I'm Crine",
+   "category": "GenZ",
+   "tags": [
+    "crine",
+    "crying laughing",
+    "lol",
+    "lmao",
+    "so funny"
+   ]
   },
   {
    "id": "226",
@@ -1601,6 +1825,19 @@
    "file": "241_god_bless_you.png",
    "caption": "God Bless You!",
    "category": "Wishes & Festivals"
+  },
+  {
+   "id": "242",
+   "file": "242_i_m_crine_cry.png",
+   "caption": "I'm Crine",
+   "category": "GenZ",
+   "tags": [
+    "crine",
+    "crying",
+    "sad",
+    "sob",
+    "azhugai"
+   ]
   },
   {
    "id": "243",
@@ -2603,28 +2840,46 @@
     "my bad",
     "mannichidu"
    ]
+  },
+  {
+   "id": "351",
+   "file": "351_boomer.png",
+   "caption": "Boomer!",
+   "category": "GenZ",
+   "tags": [
+    "boomer",
+    "ok boomer",
+    "old school",
+    "uncle"
+   ]
+  },
+  {
+   "id": "352",
+   "file": "352_genz.png",
+   "caption": "GenZ",
+   "category": "GenZ",
+   "tags": [
+    "genz",
+    "gen z",
+    "teen",
+    "kid",
+    "youngster"
+   ]
+  },
+  {
+   "id": "353",
+   "file": "353_sigma.png",
+   "caption": "Sigma",
+   "category": "GenZ",
+   "tags": [
+    "sigma",
+    "cool",
+    "alpha",
+    "boss"
+   ]
   }
  ],
  "hidden": [
-  "166",
-  "171",
-  "172",
-  "176",
-  "177",
-  "178",
-  "179",
-  "181",
-  "183",
-  "187",
-  "191",
-  "194",
-  "213",
-  "214",
-  "217",
-  "219",
-  "221",
-  "225",
-  "242",
   "c035",
   "c036",
   "c037",

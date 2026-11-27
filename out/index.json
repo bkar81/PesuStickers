@@ -1,5 +1,5 @@
 {
- "version": 1795800857,
+ "version": 1795813930,
  "stickers": [
   {
    "id": "001",
@@ -1931,6 +1931,23 @@
    "src": "e2feac8e92960cddeafd6a8271422a73a9c464c9"
   },
   {
+   "id": "166",
+   "caption": "Dis… gusting…",
+   "category": "GenZ",
+   "tags": [
+    "disgusting",
+    "eww",
+    "yuck",
+    "chee",
+    "kevalam"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s166.webp",
+   "sha1": "029c5777b86bf95901cb8deee66a93c19fc459cf",
+   "src": "27b73bb41a248d156fe8c9ea588d17e6f819db16"
+  },
+  {
    "id": "167",
    "caption": "Can We Reschedule?",
    "category": "Office",
@@ -1971,6 +1988,39 @@
    "src": "f3e85f4a009d4d1ede73fad7c6fff3f1b6b18dc0"
   },
   {
+   "id": "171",
+   "caption": "6…7",
+   "category": "GenZ",
+   "tags": [
+    "6 7",
+    "six seven",
+    "67",
+    "so so"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s171.webp",
+   "sha1": "15d70496d2c4e94df0399bcf4c053a2a1332a003",
+   "src": "df7a5fe62160475852ac17f68853a270b01a78f1"
+  },
+  {
+   "id": "172",
+   "caption": "Faaaah…",
+   "category": "GenZ",
+   "tags": [
+    "faah",
+    "fah",
+    "shout",
+    "scream",
+    "aaah"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s172.webp",
+   "sha1": "80bc70b88bf5780bb16511f1baca40e439c0770f",
+   "src": "68e973cbbed4836e2b800daa4ffb4f65668b5cbf"
+  },
+  {
    "id": "173",
    "caption": "Received!",
    "category": "Office",
@@ -2001,6 +2051,70 @@
    "src": "541b863186cef9f56017d60c2e83a3dc24e42f1e"
   },
   {
+   "id": "176",
+   "caption": "Bruh…",
+   "category": "GenZ",
+   "tags": [
+    "bruh",
+    "facepalm",
+    "seriously",
+    "dei"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s176.webp",
+   "sha1": "bd968450e67676ca7f18c7cddea9a6315a50bf36",
+   "src": "cb3d7462c40f81a93464b2e9e13ba16994ed93e9"
+  },
+  {
+   "id": "177",
+   "caption": "Sus",
+   "category": "GenZ",
+   "tags": [
+    "sus",
+    "suspicious",
+    "doubt",
+    "sandhegam"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s177.webp",
+   "sha1": "4e55eec5771ad122c7d8d7051f4c544ae40602eb",
+   "src": "5f88d43408c7398c5d6ae9f68fbfe839d60f3b30"
+  },
+  {
+   "id": "178",
+   "caption": "Cringe",
+   "category": "GenZ",
+   "tags": [
+    "cringe",
+    "awkward",
+    "embarrassing"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s178.webp",
+   "sha1": "b668731ebe01799f10ddf088c8372fb3974ca1a9",
+   "src": "37514098975ec2e7de2cd5333898d547c5a465c0"
+  },
+  {
+   "id": "179",
+   "caption": "No Cap",
+   "category": "GenZ",
+   "tags": [
+    "no cap",
+    "for real",
+    "trust me",
+    "promise",
+    "sathiyama"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s179.webp",
+   "sha1": "222cc8936ace0321d722e6d45adb3c5143a861e9",
+   "src": "a50524d4adf480cf86c1b6d8f0cc273e28765640"
+  },
+  {
    "id": "180",
    "caption": "Pending!",
    "category": "Office",
@@ -2011,6 +2125,23 @@
    "src": "d7750cfabe10ee4045d740779a8436193b248c77"
   },
   {
+   "id": "181",
+   "caption": "Bet",
+   "category": "GenZ",
+   "tags": [
+    "bet",
+    "okay",
+    "deal",
+    "sure",
+    "done"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s181.webp",
+   "sha1": "97ef959e0973a51af07410c677053b568186e9da",
+   "src": "484d014f6312d8226d1c8cee3bda4a775abe21a2"
+  },
+  {
    "id": "182",
    "caption": "Will Get Back to You!",
    "category": "Office",
@@ -2019,6 +2150,22 @@
    "file": "s182.webp",
    "sha1": "550265a096285faa99d3259f7437cabfe7119ee9",
    "src": "d72236e04cd457aaa762acc4a3dcfcf759e1c877"
+  },
+  {
+   "id": "183",
+   "caption": "Slay",
+   "category": "GenZ",
+   "tags": [
+    "slay",
+    "killing it",
+    "stylish",
+    "mass"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s183.webp",
+   "sha1": "e46f14b30d3dad49e6a4950ed2348fce50b74816",
+   "src": "7038d35e9450c5b05e80b710fe65dffcaa0f2ac2"
   },
   {
    "id": "184",
@@ -2051,6 +2198,22 @@
    "src": "2ebfb557c77d08f46fda7dffceff869cbc91de4a"
   },
   {
+   "id": "187",
+   "caption": "Rizz",
+   "category": "GenZ",
+   "tags": [
+    "rizz",
+    "charm",
+    "flirt",
+    "smooth"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s187.webp",
+   "sha1": "e490aa451ccfdb0c28815d0f9cee29ed54187691",
+   "src": "30e13d6131b7711e2ce699b7189e486441bc1369"
+  },
+  {
    "id": "188",
    "caption": "Feedback Please!",
    "category": "Office",
@@ -2081,6 +2244,22 @@
    "src": "70848826d8477ae384d61aa983454c795574b698"
   },
   {
+   "id": "191",
+   "caption": "Aura +1000",
+   "category": "GenZ",
+   "tags": [
+    "aura",
+    "respect",
+    "legend",
+    "plus 1000"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s191.webp",
+   "sha1": "278c15cdc585b95736d647646c56697f5eda1e05",
+   "src": "48d39019e00a04a8e190483383e6931cd59df936"
+  },
+  {
    "id": "192",
    "caption": "Of Course!",
    "category": "Office",
@@ -2099,6 +2278,23 @@
    "file": "s193.webp",
    "sha1": "13581f3487e531ffcc39dc6ef0071c898f6c7bc2",
    "src": "88c343185ec8e0cf30279076ee1ac7b820db2a88"
+  },
+  {
+   "id": "194",
+   "caption": "Bro is Cooked",
+   "category": "GenZ",
+   "tags": [
+    "cooked",
+    "finished",
+    "gone",
+    "doomed",
+    "sethan"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s194.webp",
+   "sha1": "732c5f23713c155dcbc9cea05c8b3f992ded5891",
+   "src": "527d77a8626ba8f9b63d1991903788fe41a73bb1"
   },
   {
    "id": "195",
@@ -2281,6 +2477,39 @@
    "src": "2e773be014be70e378d7d4718a04e6875f2588e5"
   },
   {
+   "id": "213",
+   "caption": "Delulu",
+   "category": "GenZ",
+   "tags": [
+    "delulu",
+    "delusional",
+    "dreaming",
+    "kanavu"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s213.webp",
+   "sha1": "37aeda6b8c98eedb7a6635a351b89aa2d723668e",
+   "src": "c8d9d5fa50539ad039c0cf337e4137ecd0e3a1e4"
+  },
+  {
+   "id": "214",
+   "caption": "Okay",
+   "category": "Everyday",
+   "tags": [
+    "okay",
+    "ok",
+    "fine",
+    "sari",
+    "seri"
+   ],
+   "pack": "pesu_everyday_3",
+   "packName": "Pesu · Everyday 3",
+   "file": "s214.webp",
+   "sha1": "9ee4391114965e00f40de28ad5dc584560143843",
+   "src": "4c9da423adf1f904227f74827c8ce5bb1285ac9c"
+  },
+  {
    "id": "215",
    "caption": "Never Give Up!",
    "category": "Support",
@@ -2301,6 +2530,22 @@
    "src": "44acfe7d990b7ebd98530c98b9720ce1f838b7c3"
   },
   {
+   "id": "217",
+   "caption": "Love You!",
+   "category": "GenZ",
+   "tags": [
+    "love you",
+    "finger heart",
+    "heart",
+    "luv"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s217.webp",
+   "sha1": "00b054da75c7c7ca19b693730406cd8c85fae001",
+   "src": "beb5fc66f776057181ad9c77e8ccb2baf32861bb"
+  },
+  {
    "id": "218",
    "caption": "One Step at a Time!",
    "category": "Support",
@@ -2311,6 +2556,23 @@
    "src": "d1b3ac875767a4565670cbeb1c103edb1809f5a3"
   },
   {
+   "id": "219",
+   "caption": "Wassup!",
+   "category": "GenZ",
+   "tags": [
+    "wassup",
+    "whats up",
+    "hi",
+    "hey",
+    "enna"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s219.webp",
+   "sha1": "ece03b91b8826dc4013197e6dfadb320a9a54176",
+   "src": "b33223b9e0146f432b8d25f399a369fc346f3dcb"
+  },
+  {
    "id": "220",
    "caption": "Keep Smiling!",
    "category": "Support",
@@ -2319,6 +2581,23 @@
    "file": "s220.webp",
    "sha1": "f9420eb7d1aeb62f13dfc4439c4afad055b2d078",
    "src": "c4b55aa3a8f6a745835348c7d213475bdc539d83"
+  },
+  {
+   "id": "221",
+   "caption": "Dawg!",
+   "category": "GenZ",
+   "tags": [
+    "dawg",
+    "bro",
+    "buddy",
+    "machan",
+    "nanba"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s221.webp",
+   "sha1": "edc2191215708b1c36a24a7567b7d4690a4b44df",
+   "src": "3e2748d5e94369ecad5d26ed9a3bc3d25595801d"
   },
   {
    "id": "222",
@@ -2349,6 +2628,23 @@
    "file": "s224.webp",
    "sha1": "e89c10ecb45f073f629c7b71e1131b09a088a363",
    "src": "ce51d89a363bea0222c677f1aed0e83f4e36674c"
+  },
+  {
+   "id": "225",
+   "caption": "I'm Crine",
+   "category": "GenZ",
+   "tags": [
+    "crine",
+    "crying laughing",
+    "lol",
+    "lmao",
+    "so funny"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s225.webp",
+   "sha1": "601e259b07299e64ac38595a630a7705128a381f",
+   "src": "af44654c80b497e74c76d4c2a5b403c477a50895"
   },
   {
    "id": "226",
@@ -2529,6 +2825,23 @@
    "file": "s241.webp",
    "sha1": "6db17cbf45dac9d122d73ea9412381627121f039",
    "src": "99886c57f154bd453c607bd8076107c8578f18e9"
+  },
+  {
+   "id": "242",
+   "caption": "I'm Crine",
+   "category": "GenZ",
+   "tags": [
+    "crine",
+    "crying",
+    "sad",
+    "sob",
+    "azhugai"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s242.webp",
+   "sha1": "1f6a829f0b23f4e041fb78c35e0c7f4a95ab54ad",
+   "src": "3bd7b4c76efe2045c7c6b4adcedadb3a25a29ee1"
   },
   {
    "id": "243",
@@ -3985,28 +4298,58 @@
    "file": "s350.webp",
    "sha1": "ea11d8d65183e57cf8c776f298ab751dd70e27fa",
    "src": "77e0c693bf2c6587ffe9802a1e8287425c6d52aa"
+  },
+  {
+   "id": "351",
+   "caption": "Boomer!",
+   "category": "GenZ",
+   "tags": [
+    "boomer",
+    "ok boomer",
+    "old school",
+    "uncle"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s351.webp",
+   "sha1": "8d95d5474d1f53173e4719b5f90a160528048924",
+   "src": "032ede04897c7e1037522ddc13ee50069bed0de9"
+  },
+  {
+   "id": "352",
+   "caption": "GenZ",
+   "category": "GenZ",
+   "tags": [
+    "genz",
+    "gen z",
+    "teen",
+    "kid",
+    "youngster"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s352.webp",
+   "sha1": "d809788369792b25de8a3b9abacf57cd770568e6",
+   "src": "5fcc36063af4e50853b464a8aecf0e42d3b2339b"
+  },
+  {
+   "id": "353",
+   "caption": "Sigma",
+   "category": "GenZ",
+   "tags": [
+    "sigma",
+    "cool",
+    "alpha",
+    "boss"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s353.webp",
+   "sha1": "3e64945d34be559a6c9c7299908a760fd5cfd579",
+   "src": "86c1b15ae4974b5fe6f465d63d381ea10de982ac"
   }
  ],
  "hidden": [
-  "166",
-  "171",
-  "172",
-  "176",
-  "177",
-  "178",
-  "179",
-  "181",
-  "183",
-  "187",
-  "191",
-  "194",
-  "213",
-  "214",
-  "217",
-  "219",
-  "221",
-  "225",
-  "242",
   "c035",
   "c036",
   "c037",
