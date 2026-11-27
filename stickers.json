@@ -2636,5 +2636,10 @@
   "c046",
   "c047",
   "c049"
- ]
+ ],
+ "requests": {
+  "enabled": false,
+  "form": "",
+  "note": "Request a sticker: put the Google Form pre-filled link in form (with TEST-PHONE and TEST-VERSION), set enabled to true. Set enabled to false to hide the button."
+ }
 }

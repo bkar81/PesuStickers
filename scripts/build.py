@@ -266,9 +266,12 @@ def main():
         "version": int(time.time()),
         "stickers": items,
         "hidden": meta.get("hidden", []),
+        # Request a sticker: shown in the app only when enabled and a form link is set.
+        "requests": meta.get("requests", {"enabled": False, "form": ""}),
     }
     unchanged = old and [ {k: v for k, v in i.items()} for i in items ] == list(old.values()) \
-        and json.load(open(idx_path, encoding="utf-8")).get("hidden", []) == index["hidden"]
+        and json.load(open(idx_path, encoding="utf-8")).get("hidden", []) == index["hidden"] \
+        and json.load(open(idx_path, encoding="utf-8")).get("requests") == index["requests"]
     if not unchanged:
         json.dump(index, open(idx_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(meta, open(META, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

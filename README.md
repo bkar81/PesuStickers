@@ -31,3 +31,12 @@ It disappears from the keyboard, including the stickers built into the app.
 
 Everyday · Reactions · Love & Family · Wishes & Festivals · Support · Tamil · Office · Daily Life · Travel.
 A new category name becomes a new page.
+
+## Request a sticker (button in the app)
+
+In `stickers.json`, the `requests` part controls the **Request a sticker** button in
+Settings → Stickers:
+
+- `form`: your Google Form's pre-filled link, made with **TEST-PHONE** in the Phone question and
+  **TEST-VERSION** in the Pesu version question (Pesu puts the real values there).
+- `enabled`: `true` shows the text and button, `false` hides them. Phones pick it up within a day.
