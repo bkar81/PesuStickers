@@ -1,5 +1,5 @@
 {
- "version": 1795774006,
+ "version": 1795787952,
  "stickers": [
   {
    "id": "001",
@@ -3666,11 +3666,9 @@
     "lossu",
     "trade"
    ],
-   "pack": "pesu_trading_1",
-   "packName": "Pesu · Trading",
    "file": "s331b.webp",
-   "sha1": "9aa36076afa7c2351a17c81fa1ad64059a9e0303",
-   "src": "1cb0dd2377dff0c9f7a46ca0c33389bf90fbb2ad"
+   "sha1": "0d3f96f0ea2bc6740bb6c784b4e9661639d53cbe",
+   "src": "11eec0784d0622a75bb0dd8efe9ed46a12eb1897"
   },
   {
    "id": "332",
@@ -4019,7 +4017,8 @@
   "c045",
   "c046",
   "c047",
-  "c049"
+  "c049",
+  "331b"
  ],
  "requests": {
   "enabled": false,
