@@ -1,5 +1,5 @@
 {
- "version": 1795787952,
+ "version": 1795800857,
  "stickers": [
   {
    "id": "001",
@@ -28,8 +28,8 @@
    "pack": "pesu_everyday_1",
    "packName": "Pesu · Everyday 1",
    "file": "s003.webp",
-   "sha1": "e262859b6cfb2210c4d92bac93ebc0eb72c78459",
-   "src": "00a0818fd1e9a0bcd388a780a88ed87f3452a690"
+   "sha1": "a1f62018ed59a65bc0efe8ba1caa8a77828d5952",
+   "src": "d49790895341058ebce20d3d54cecea85e8122a9"
   },
   {
    "id": "004",
@@ -73,8 +73,8 @@
    "pack": "pesu_everyday_1",
    "packName": "Pesu · Everyday 1",
    "file": "s006.webp",
-   "sha1": "d319b0f201003047eaadb2540c178273d5e042fc",
-   "src": "995c2e0c2a448c931dab8fe9addae16cb866e9eb"
+   "sha1": "e4a0acdcaa988c61f98f96dcb3015eafb9edade2",
+   "src": "4ca6bc7c39ed4743530d39cc31d03504f219d7bd"
   },
   {
    "id": "007",
@@ -165,8 +165,8 @@
    "pack": "pesu_everyday_1",
    "packName": "Pesu · Everyday 1",
    "file": "s013.webp",
-   "sha1": "57521ec70dd7be954a3f02d1d6636e01746af7b7",
-   "src": "43c434ece74857897f3aac242641e3d185270b7b"
+   "sha1": "02817893a25cf62990c2392228fb771329c48140",
+   "src": "b667a90ce4b69ae94869410f97f9945dd195c091"
   },
   {
    "id": "014",
@@ -175,8 +175,8 @@
    "pack": "pesu_everyday_1",
    "packName": "Pesu · Everyday 1",
    "file": "s014.webp",
-   "sha1": "ab37eafec5fbcc4f1eec2225cdba139eece7c374",
-   "src": "5f30d584fdc69e67859756190b85dada3c7f1bd9"
+   "sha1": "b449545a4c77542939d773f15ecac5c77f9c7f5d",
+   "src": "d1833c332febc7ec4a4dd532bb6b72f2e61cd3e4"
   },
   {
    "id": "015",
@@ -185,8 +185,8 @@
    "pack": "pesu_everyday_1",
    "packName": "Pesu · Everyday 1",
    "file": "s015.webp",
-   "sha1": "ac5531b412cd0d5ac4ab21a3b1881c328269a234",
-   "src": "f834e1154bdac7e4c1aafd816d292c48bcdf598f"
+   "sha1": "b4165dc8c27196c4738e6b9ca3dc21467955703a",
+   "src": "0578a6757290c581e30faa646242bf18925e5214"
   },
   {
    "id": "015a",
@@ -351,8 +351,8 @@
    "pack": "pesu_everyday_2",
    "packName": "Pesu · Everyday 2",
    "file": "s030.webp",
-   "sha1": "2071d21e25a091933358f3d9cd68d11940f98bb4",
-   "src": "89cf35fd6c3da3cb8acbc8489525076ef51f15ca"
+   "sha1": "6d69d31f0819f44b1312a5df8b7ff5c9f687f704",
+   "src": "c111c95499993d0a51f4ed8526ef7d27d9091655"
   },
   {
    "id": "031",
@@ -371,8 +371,8 @@
    "pack": "pesu_everyday_2",
    "packName": "Pesu · Everyday 2",
    "file": "s032.webp",
-   "sha1": "df77efda27c591e12490ca341298c246a0debe46",
-   "src": "35e8605d752f4fea7ba5734e83fa2a783f0a566d"
+   "sha1": "05479bcaa6e287e04350c535efc30058dd3c41e7",
+   "src": "f1587963a128ebf1cb6a2975cbbcd388a7be3c41"
   },
   {
    "id": "033",
@@ -381,8 +381,8 @@
    "pack": "pesu_everyday_2",
    "packName": "Pesu · Everyday 2",
    "file": "s033.webp",
-   "sha1": "208177e465b06a3f0d4f166f9fbde95439e01860",
-   "src": "fcf7f292d65298d8da19485728fb2543c0d7a63e"
+   "sha1": "b2f106fc23f8541c949f0a5a1290b178c4e599a2",
+   "src": "40264ff4db669945d27b1b4dfb8a1cd3aa713beb"
   },
   {
    "id": "034",
@@ -391,8 +391,8 @@
    "pack": "pesu_everyday_2",
    "packName": "Pesu · Everyday 2",
    "file": "s034.webp",
-   "sha1": "3e56ac9817f892d65a7e1fb8da4f04240d72b957",
-   "src": "8d832e89c4a4e99bd3234f06cc7d4488dbb7fe42"
+   "sha1": "30e0f85dafef548806e3d22be4883461d6fd4ebd",
+   "src": "34e974f4c9e302147fa5bf9ce91fa3bc312f0ba1"
   },
   {
    "id": "035",
@@ -431,8 +431,8 @@
    "pack": "pesu_everyday_2",
    "packName": "Pesu · Everyday 2",
    "file": "s038.webp",
-   "sha1": "f0f62cd6eeacdde52d163df2d3cf159ebc563ca7",
-   "src": "9ea22a5cd840bb16027686d3940e3e35de6423c1"
+   "sha1": "6f8b31494ce3e8332f37451284a326a60c67233d",
+   "src": "a1e405a12536850bd03e2e91a9f49446ed08bbaa"
   },
   {
    "id": "039",
@@ -461,8 +461,8 @@
    "pack": "pesu_everyday_2",
    "packName": "Pesu · Everyday 2",
    "file": "s041.webp",
-   "sha1": "a89a7277051f06c92aaed0611c60b947f740b274",
-   "src": "790c5b96085c964b4b062f198116ebe40591da9b"
+   "sha1": "1b79f6e7de64e35925755a637d5db8cffcbe0aa0",
+   "src": "afe52d3b68793999881b38cf0c4f11e545529dfe"
   },
   {
    "id": "042",
@@ -2087,8 +2087,8 @@
    "pack": "pesu_office_2",
    "packName": "Pesu · Office 2",
    "file": "s192.webp",
-   "sha1": "8712053cff479bf4aec81b171a48ad7534b0cdad",
-   "src": "0025d86a3dd8e59976b1f2dfa12d6c2e2ec15fe6"
+   "sha1": "5f4a28251e71c4d0cee6f98c628ece367e51ac9c",
+   "src": "33572dd658565d183f674026428e3a83ae641d47"
   },
   {
    "id": "193",
@@ -2097,8 +2097,8 @@
    "pack": "pesu_office_2",
    "packName": "Pesu · Office 2",
    "file": "s193.webp",
-   "sha1": "2deff7f3a3ae494d695b75ee7a71023fbef75ab2",
-   "src": "daabd8dea18906d3ee688592eaab68131258164e"
+   "sha1": "13581f3487e531ffcc39dc6ef0071c898f6c7bc2",
+   "src": "88c343185ec8e0cf30279076ee1ac7b820db2a88"
   },
   {
    "id": "195",
@@ -2107,8 +2107,8 @@
    "pack": "pesu_office_2",
    "packName": "Pesu · Office 2",
    "file": "s195.webp",
-   "sha1": "9e8cf538e0702d54432986cedcfa24a4adf64602",
-   "src": "69b638f8d438c12e689376636d5bda9362fcfceb"
+   "sha1": "a70d3f83f97c34f477e79d0f81db2ea5e35a6c28",
+   "src": "8323fa07820294d4d9ec3211a542a7439adb6010"
   },
   {
    "id": "196",
@@ -2407,8 +2407,8 @@
    "pack": "pesu_tamil_1",
    "packName": "Pesu · Tamil 1",
    "file": "s231.webp",
-   "sha1": "710300875ee74c86a4cd71cf6f881089666c52ed",
-   "src": "3bb5bd7fc5ec65979362333a0f83acd555aaddee"
+   "sha1": "7b0afdf2de6527e4ddbd62bdde131747aea21449",
+   "src": "80f4eb9af2b821cf436cfde7fe3ad4409753deba"
   },
   {
    "id": "232",
