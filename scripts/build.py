@@ -71,14 +71,9 @@ def exif(category, pack_id=None, pack_name=None):
         "ios-app-store-link": "",
         "emojis": [EMOJI.get(category, "😊")],
     }, ensure_ascii=False).encode()
-    # Two EXIF entries: WhatsApp's sticker details (0x5741) and the standard Copyright tag (0x8298).
-    note = (COPYRIGHT + "\x00").encode("ascii")
-    first = 8 + 2 + 2 * 12 + 4
-    ifd = struct.pack("<H", 2) \
-        + struct.pack("<HHII", 0x5741, 7, len(data), first) \
-        + struct.pack("<HHII", 0x8298, 2, len(note), first + len(data)) \
-        + struct.pack("<I", 0)
-    return b"II*\x00\x08\x00\x00\x00" + ifd + data + note
+    # Exactly the layout WhatsApp reads: one entry (0x5741) with the sticker details right after it.
+    # (A second, standard Copyright entry stopped WhatsApp accepting the stickers, 2026-11-28.)
+    return b"II*\x00\x08\x00\x00\x00\x01\x00" + struct.pack("<HHII", 0x5741, 7, len(data), 0x16) + data
 
 
 def background_kind(path):
@@ -241,7 +236,7 @@ def main():
             print("missing file, skipped:", s["file"])
             continue
         pack_id, pack_name = packs.get(s["id"], (None, None))
-        src_hash = hashlib.sha1(open(src, "rb").read() + s["category"].encode() + b"exif3"
+        src_hash = hashlib.sha1(open(src, "rb").read() + s["category"].encode() + b"exif4"
                                 + (pack_id or "").encode() + (pack_name or "").encode()
                                 + {"white": b"cutout2", "black": b"cutblack1", "painted": b"rebuild1"}.get(background_kind(src), b"")).hexdigest()
         out_name = f"s{s['id']}.webp"
