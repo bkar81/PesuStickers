@@ -1,5 +1,9 @@
 # Pesu Stickers
 
+**© Karthik, all rights reserved, not for reuse.** These stickers are made for the Pesu
+keyboard only. You may not copy, change, share or use them in any other app, sticker pack
+or product. See [LICENSE](LICENSE).
+
 Stickers for the Pesu keyboard. The keyboard downloads new and changed stickers from here,
 so they update without a new app version.
 
