@@ -1,5 +1,5 @@
 {
- "version": 1795849363,
+ "version": 1795849545,
  "stickers": [
   {
    "id": "001",
@@ -5026,12 +5026,12 @@
     "maatne",
     "caught"
    ],
-   "pack": "pesu_chennai_vibes_2",
-   "packName": "Pesu · Chennai Vibes 2",
+   "pack": "pesu_chennai_vibes_1",
+   "packName": "Pesu · Chennai Vibes 1",
    "file": "s372.webp",
-   "sha1": "38a8d5632a7e34fa522d377b769102b97f464b8a",
+   "sha1": "8f49a4b6c81b4e7c1c2a3c23a7c018ffc1d1068f",
    "size": 48268,
-   "src": "480847fe6e7a0fede41596163de1c2d2fa3cfb0e"
+   "src": "7daaa001e28e7864e611d098e3a4ab5eca03d47d"
   },
   {
    "id": "373",
@@ -5309,6 +5309,24 @@
    "sha1": "ebd1f8278f96903894d773a6ec59dc2e78b88eab",
    "size": 47280,
    "src": "576c4ba0043c4d923b142abfb8797c2fd6dee636"
+  },
+  {
+   "id": "390",
+   "caption": "கலக்கு மச்சி!",
+   "category": "Chennai Vibes",
+   "tags": [
+    "kalakku machi",
+    "kalakku",
+    "super",
+    "well done",
+    "great work"
+   ],
+   "pack": "pesu_chennai_vibes_2",
+   "packName": "Pesu · Chennai Vibes 2",
+   "file": "s390.webp",
+   "sha1": "27c457aaad02f928475fc3f02a18bc1db68e7de9",
+   "size": 60610,
+   "src": "5077747f816f9639490ac898c30134f44ca9e026"
   }
  ],
  "hidden": [
