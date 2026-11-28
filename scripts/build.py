@@ -258,6 +258,7 @@ def main():
             item["packName"] = pack_name
         item["file"] = out_name
         item["sha1"] = hashlib.sha1(open(out_path, "rb").read()).hexdigest()
+        item["size"] = os.path.getsize(out_path)
         item["src"] = src_hash
         items.append(item)
 
