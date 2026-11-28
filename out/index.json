@@ -1,5 +1,5 @@
 {
- "version": 1795849804,
+ "version": 1795850515,
  "stickers": [
   {
    "id": "001",
@@ -5345,6 +5345,26 @@
    "sha1": "b7073564c9767fbd9542f24c2abd9f05b2a040ba",
    "size": 37818,
    "src": "0250da4e90c6a774662ebb3e325d4d7dfa622e4e"
+  },
+  {
+   "id": "392",
+   "caption": "செஞ்சுருவேன்",
+   "category": "Chennai Vibes",
+   "tags": [
+    "senjruven",
+    "senjuruven",
+    "senjuduven",
+    "senjiduven",
+    "senjuduvaen",
+    "mass",
+    "warning"
+   ],
+   "pack": "pesu_chennai_vibes_2",
+   "packName": "Pesu · Chennai Vibes 2",
+   "file": "s392.webp",
+   "sha1": "80f871eda3fcc242277aa5ce18a0de920964ade1",
+   "size": 61852,
+   "src": "df0254324c342ff89ca2ad580ca8953c252c5f52"
   }
  ],
  "hidden": [
