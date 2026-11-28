@@ -1,5 +1,5 @@
 {
- "version": 1795849545,
+ "version": 1795849804,
  "stickers": [
   {
    "id": "001",
@@ -5327,6 +5327,24 @@
    "sha1": "27c457aaad02f928475fc3f02a18bc1db68e7de9",
    "size": 60610,
    "src": "5077747f816f9639490ac898c30134f44ca9e026"
+  },
+  {
+   "id": "391",
+   "caption": "SMH",
+   "category": "GenZ",
+   "tags": [
+    "smh",
+    "shake my head",
+    "annoyed",
+    "facepalm",
+    "seriously"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s391.webp",
+   "sha1": "b7073564c9767fbd9542f24c2abd9f05b2a040ba",
+   "size": 37818,
+   "src": "0250da4e90c6a774662ebb3e325d4d7dfa622e4e"
   }
  ],
  "hidden": [
