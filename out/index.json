@@ -1,5 +1,5 @@
 {
- "version": 1795851181,
+ "version": 1795853879,
  "stickers": [
   {
    "id": "001",
@@ -5385,6 +5385,28 @@
    "sha1": "67456b034cd68cb41e4a70386ffdd3d6f5ca707b",
    "size": 55344,
    "src": "ce606548af1eb5c2da39b3dfbb38250681d0dd74"
+  },
+  {
+   "id": "394",
+   "caption": "Aura -1000",
+   "category": "GenZ",
+   "tags": [
+    "aura",
+    "minus",
+    "-1000",
+    "cringe",
+    "embarrassed",
+    "fail",
+    "aura loss",
+    "maanam pochu",
+    "asingam"
+   ],
+   "pack": "pesu_genz_1",
+   "packName": "Pesu · GenZ",
+   "file": "s394.webp",
+   "sha1": "c041927ff6f36232c7cf09dc7818426fcbc39afa",
+   "size": 56240,
+   "src": "f4ac5588110d81944af99b40532adb59eb80b5b7"
   }
  ],
  "hidden": [
